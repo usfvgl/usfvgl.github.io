@@ -1,0 +1,11 @@
+name: Visualization and Graphics Lab
+author: University of San Francisco
+
+# Filter
+show_drafts: null
+future: false
+unpublished: false
+
+# Output
+permalink: date
+timezone: America/Los_Angeles

@@ -1,0 +1,22 @@
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">
+{% if include.data.icon %}
+<span class="pull-right"><i class="fa {{ include.data.icon }}"></i></span>
+{% endif %}
+<a href="{{ include.data.url }}">{{ include.data.title }}</a>
+</h3>
+</div> <!-- end heading //-->
+
+<div class="panel-body">
+{{ include.data.content }}
+
+<div class="text-muted text-right">
+<em><small>
+  Posted {{ include.data.date | date: '%B %d, %Y' }}
+  {% if include.data.author %}
+  by {{ include.data.author }}
+  {% endif %}
+</small></em></div>
+</div> <!-- end body //-->
+</div> <!-- end post //-->

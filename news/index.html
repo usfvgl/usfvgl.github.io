@@ -1,0 +1,8 @@
+---
+layout: default
+title: News
+---
+
+{% for post in site.categories.news %}
+{% include post.html data=post %}
+{% endfor %}

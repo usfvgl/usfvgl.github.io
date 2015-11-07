@@ -1,0 +1,94 @@
+---
+
+# All icons are Font Awesome icons. See a list at:
+# https://fortawesome.github.io/Font-Awesome/icons/
+
+# Each person should have the following items:
+# first: [first name]
+# last : [fast name]
+# image: [filename in /images folder (optional)]
+# title: [list of title lines (optional)]
+# about: [bio paragraph (optional)]
+
+# Each person can have a list of links as follows:
+# links:
+#   - name: [link description]
+#     link: [link to website]
+#     icon: [fontawesome icon]
+
+faculty:
+  - first: 'Alark'
+    last : 'Joshi'
+    image: 'joshi.png'
+    title:
+      - 'Assistant Professor'
+      - 'Department of Computer Science'
+      - 'University of San Francisco'
+    about: |
+      Alark Joshi works on data visualization projects for improved
+      neurosurgical planning and treatment. His research focuses on
+      developing and evaluating the ability of novel visualization
+      techniques to communicate information for effective decision
+      making and discovery. His work has led to novel visualization
+      techniques in fields as diverse as computational fluid dynamics,
+      atmospheric physics, medical imaging and cell biology. Alark
+      received his PhD from the University of Maryland, was a
+      Postdoctoral Associate at Yale University, and most recently a
+      professor at Boise State University.
+    links:
+      - name: 'cs.usfca.edu/~apjoshi'
+        link: 'http://cs.usfca.edu/~apjoshi'
+        icon: 'fa-globe'
+      - name: '@alark'
+        link: 'http://twitter.com/alark'
+        icon: 'fa-twitter'
+      - name: 'apjoshi@usfca.edu'
+        link: 'mailto:apjoshi@usfca.edu'
+        icon: 'fa-envelope'
+  - first: 'Sophie'
+    last : 'Engle'
+    image: 'engle.png'
+    title:
+      - 'Graduate Director'
+      - 'Assistant Professor'
+      - 'Department of Computer Science'
+      - 'University of San Francisco'
+    about: |
+      Sophie Engle works on a variety of projects including data
+      visualization, computer security, and computer science education.
+      Sophie received her PhD from the University of California, Davis
+      where she worked on vulnerability analysis, electronic voting, and
+      models of security policy and insider threat.
+    links:
+      - name: 'sjengle.cs.usfca.edu'
+        link: 'http://sjengle.cs.usfca.edu/'
+        icon: 'fa-globe'
+      - name: '@sjengle'
+        link: 'http://twitter.com/sjengle'
+        icon: 'fa-twitter'
+      - name: 'sjengle@cs.usfca.edu'
+        link: 'mailto:sjengle@cs.usfca.edu'
+        icon: 'fa-envelope'
+students:
+  - first: 'Dejan'
+    last : 'Djokic'
+    image: 'djokic.jpg'
+    title:
+      - 'Undergraduate'
+      - 'Computer Science Major'
+      - 'University of San Francisco'
+    links:
+      - name: 'ddjokic@usfca.edu'
+        link: 'mailto:ddjokic@usfca.edu'
+        icon: 'fa-envelope'
+  - first: 'Helen'
+    last : 'Chen'
+    image: 'chen.jpg'
+    title:
+      - 'Undergraduate'
+      - 'Computer Science Major'
+      - 'University of San Francisco'
+    links:
+      - name: 'hhchen@usfca.edu'
+        link: 'mailto:hhchen@usfca.edu'
+        icon: 'fa-envelope'
