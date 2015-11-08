@@ -49,7 +49,6 @@ faculty:
     last : 'Engle'
     image: 'engle.png'
     title:
-      - 'Graduate Director'
       - 'Assistant Professor'
       - 'Department of Computer Science'
       - 'University of San Francisco'
