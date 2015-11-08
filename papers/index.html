@@ -3,4 +3,8 @@ layout: default
 title: Papers
 ---
 
-<p>Pending.</p>
+{% include papers.html data=site.data.papers.papers %}
+
+<h1 class="page-header">Talks</h1>
+
+{% include papers.html data=site.data.papers.talks %}

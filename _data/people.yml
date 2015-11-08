@@ -45,6 +45,9 @@ faculty:
       - name: 'apjoshi@usfca.edu'
         link: 'mailto:apjoshi@usfca.edu'
         icon: 'fa-envelope'
+    widget: |
+      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/alark" data-widget-id="663185603832352768">Tweets by @alark</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   - first: 'Sophie'
     last : 'Engle'
     image: 'engle.png'
@@ -68,6 +71,9 @@ faculty:
       - name: 'sjengle@cs.usfca.edu'
         link: 'mailto:sjengle@cs.usfca.edu'
         icon: 'fa-envelope'
+    widget: |
+      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/sjengle" data-widget-id="663185352065069056">Tweets by @sjengle</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 students:
   - first: 'Dejan'
     last : 'Djokic'

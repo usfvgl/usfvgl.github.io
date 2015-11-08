@@ -1,10 +1,183 @@
-# -    title: 'Title'
-#    authors: 'Authors'
-#       year: 0000
-#      month: 'Optional'
-#   citation: 'Text'
-# citation
-# links
-#     icon
-#     link
+# Always make dates YYYY-MM-DD format. The day will not be shown, so default to "01" if needed.
 
+# Order does not matter. Just add, it will be sorted by date later.
+
+  # - title   : 'Title'
+  #   authors :
+  #     - 'Author'
+  #     - 'Author'
+  #   cite    : 'Cite'
+  #   pages   :
+  #     - 0
+  #     - 0
+  #   date    : 0000-00-00
+  #   links   :
+  #     - link: 'link'
+  #       icon: 'fa-link'
+  #     - link: 'link'
+  #       icon: 'fa-file-powerpoint-o'
+  #     - link: 'link'
+  #       icon: 'fa-file-pdf-o'
+
+
+papers:
+  - title   : 'Reflecting on Visualization for Cyber Security'
+    authors :
+      - 'Carrie Gates'
+      - 'Sophie Engle'
+    cite    : '<em>Proceedings of the 2013 IEEE International Conference on Intelligence and Security Informatics (ISI)</em>, from the Evaluating Security Visualizations Workshop, Seattle, Washington'
+    pages   :
+      - 275
+      - 277
+    date    : 2013-06-01
+    links   :
+      - link: 'http://dx.doi.org/10.1109/ISI.2013.6578842'
+        icon: 'fa-link'
+      - link: 'https://drive.google.com/file/d/0BxYofk0iB_upRm9XdHV5cU1QaVE/edit?usp=sharing'
+        icon: 'fa-file-powerpoint-o'
+  - title   : 'Visualizing Distributed Memory Computations with Hive Plots'
+    authors :
+      - 'Sophie Engle'
+      - 'Sean Whalen'
+    cite    : '<em>Proceedings of the Ninth International Symposium on Visualization for Cyber Security (VizSec),</em> Seattle, Washington'
+    pages   :
+      - 56
+      - 63
+    date    : 2012-10-01
+    links   :
+      - link: 'http://dx.doi.org/10.1145/2379690.2379698'
+        icon: 'fa-link'
+      - link: 'https://drive.google.com/file/d/0BxYofk0iB_upS3Z4M1FqM3REdUk/edit?usp=sharing'
+        icon: 'fa-file-powerpoint-o'
+  - title   : 'Visualization-assisted Insights into Home Energy Usage'
+    authors :
+      - 'Matt Law'
+      - 'Sami Rollins'
+      - 'Nilanjan Banerjee'
+      - 'Alark Joshi'
+    cite    : '<em>Proceedings of the European Conference on Visualization (EuroVis)</em>'
+    date    : 2015-05-01
+    links   :
+      - link: 'http://cs.usfca.edu/~apjoshi/papers/Eurovis_2015_home_energy.pdf'
+        icon: 'fa-file-pdf-o'
+  - title   : 'Evaluation-guided metrics for visualization on mobile devices'
+    authors :
+      - 'Peter Games'
+      - 'Alark Joshi'
+    cite    : '<em>SPIE Visualization and Data Analysis conference</em>, <strong>Best Paper Award</strong>'
+    date    : 2015-02-01
+    links   :
+      - link: 'http://cs.usfca.edu/~apjoshi/papers/evaluation-guidelines_vda2015.pdf'
+        icon: 'fa-file-pdf-o'
+  - title   : 'CoVE: A Colony Visualization System for Animal Pedigrees'
+    authors :
+      - 'Brady Cannon'
+      - 'Minoti Hiremath'
+      - 'Cheryl Jorcyk'
+      - 'Alark Joshi'
+    cite    : '<em>Proceedings of the ACM 7th International Symposium on Visual Information Communication and Interaction</em>'
+    date    : 2014-08-01
+    links   :
+      - link: 'http://cs.usfca.edu/~apjoshi/papers/ACM_VINCI_2014_cove.pdf'
+        icon: 'fa-file-pdf-o'
+  - title   : 'Visualization of off-screen data on tablets using context-providing bar graphs and scatter plots'
+    authors :
+      - 'Peter Games'
+      - 'Alark Joshi'
+    cite    : '<em>SPIE Visualization and Data Analysis conference</em>, <strong>Best Paper Award</strong>'
+    date    : 2014-02-01
+    links   :
+      - link: 'http://cs.usfca.edu/~apjoshi/papers/Games_Joshi_VDA2014.pdf'
+        icon: 'fa-file-pdf-o'
+  - title   : 'DriveSense: Contextual Handling of Large-scale Route Map Data for the Automobile'
+    authors :
+      - 'Frederik Wiehr'
+      - 'Vidya Setlur'
+      - 'Alark Joshi'
+    cite    : '<em>IEEE Big Data Visualization workshop</em>'
+    date    : 2013-10-01
+    links   :
+      - link: 'http://vis.ucdavis.edu/Workshops/BigDataVis2013/'
+        icon: 'fa-file-pdf-o'
+  - title   : 'Visualizing Disease Incidence in the Context of Socioeconomic Factors'
+    authors :
+      - 'Jared Shenson'
+      - 'Alark Joshi'
+    cite    : '<em>International Symposium on Visual Information Communication and Interaction</em>'
+    date    : 2012-09-01
+    links   :
+      - link: 'http://dl.acm.org/citation.cfm?id=2397701&CFID=170022331&CFTOKEN=38387273'
+        icon: 'fa-file-pdf-o'
+  - title   : 'Auto(mobile): Mobile Visual Interfaces for the Road'
+    authors :
+      - 'Frederik Wiehr'
+      - 'Vidya Setlur'
+      - 'Alark Joshi'
+    cite    : '<em>ACM SIGGRAPH Mobile</em>'
+    date    : 2012-08-01
+    links   :
+      - link: 'http://dl.acm.org/citation.cfm?id=2341910.2341919&coll=DL&dl=GUIDE&CFID=170022331&CFTOKEN=38387273'
+        icon: 'fa-file-pdf-o'
+  - title   : 'RSVP: Remote Sensing Visualization Platform for Data Fusion'
+    authors :
+      - 'Vanessa Gertman'
+      - 'Peter Olsoy'
+      - 'Nancy Glenn'
+      - 'Alark Joshi'
+    cite    : '<em>IEEE Virtual Reality Workshop on Immersive Visualization</em>'
+    date    : 2012-03-01
+    links   :
+      - link: 'http://coen.boisestate.edu/gravitas/files/2012/03/rsvp.pdf'
+        icon: 'fa-file-pdf-o'
+talks:
+  - title   : 'Episode 13: Deconstructing VizSec with Lane Harrison and Sophie Engle'
+    authors :
+      - 'Lane Harrison'
+      - 'Sophie Engle'
+      - 'Bob Rudis'
+      - 'Jay Jacobs'
+    cite    : 'Data Driven Security: The Podcast'
+    date    : 2014-12-01
+    links   :
+      - link: 'http://datadrivensecurity.info/podcast/data-driven-security-episode-13.html'
+        icon: 'fa-headphones'
+  - title   : 'How Good People Make Bad Graphs: Unintentional Fibbing with Visualization'
+    authors :
+      - 'Sophie Engle'
+    cite    : 'Big Data Visualization Meetup, CA Technologies Inc., Santa Clara, California'
+    date    : 2014-05-01
+    links   :
+      - link: 'http://www.meetup.com/Big-Data-Visualisation-South-Bay/events/179051462/'
+        icon: 'fa-link'
+      - link: 'http://files.meetup.com/10892752/Slides_SophieEngle.pdf'
+        icon: 'fa-file-powerpoint-o'
+  - title   : 'Reflecting on Visualization for Cyber Security'
+    authors :
+      - 'Sophie Engle'
+    cite    : 'SRI International CSL Seminar, Menlo Park, California'
+    date    : 2013-09-01
+    links   :
+      - link: 'https://drive.google.com/file/d/0BxYofk0iB_upbUNQTmRWcllfUFE/edit?usp=sharing'
+        icon: 'fa-file-powerpoint-o'
+  - title   : 'Smart Interfaces for Mobile Devices'
+    authors :
+      - 'Alark Joshi'
+    cite    : 'Big Data Visualization Meetup, CA Technologies Inc., Santa Clara, California'
+    date    : 2015-02-01
+    links   :
+      - link: 'http://www.meetup.com/Big-Data-Visualisation-South-Bay/events/220162897/'
+        icon: 'fa-link'
+      - link: 'http://files.meetup.com/10892752/Visual_Interfaces_Mobile_Devices2.pptx'
+        icon: 'fa-file-powerpoint-o'
+      - link: 'https://www.youtube.com/watch?v=Sz9gyNsXwis'
+        icon: 'fa-youtube-play'
+  - title   : 'Help Students SEE it! Using Online Visualization Tools for Interactive Data Analysis'
+    authors :
+      - 'Alark Joshi'
+    cite    : 'Center for Teaching &amp; Learning at Boise State University, Boise, Idaho'
+    date    : 2012-09-01
+  - title   : 'Data Visualization for Nonprofits'
+    authors :
+      - 'Alark Joshi'
+    cite    : 'Idaho Statewide NonProfit Conference, Boise, Idaho'
+    date    : 2012-09-01
