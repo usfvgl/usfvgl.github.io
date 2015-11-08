@@ -3,4 +3,50 @@ layout: default
 title: Courses
 ---
 
-<p>Pending.</p>
+<p>Students interested in data visualization and graphics are encouraged to take one or more related courses. These include courses in data or information visualization, computer graphics, and research seminars or directed studies on similar topics.</p>
+
+{% assign courses = site.data.courses | sort: 'semester' %}
+{% assign current = 2000-01-01 %}
+
+<table class="table table-hover table-noborder">
+<tbody>
+
+{% for group in courses reversed %}
+  {% for course in group.courses | sort: 'number' %}
+  <tr>
+  {% if group.semester != current %}
+    {% assign current = group.semester %}
+    <td style="white-space: nowrap;">
+      <strong class="text-uppercase text-muted">
+      {% assign month = group.semester | date: "%m" %}
+      {% assign year  = group.semester | date: "%Y" %}
+      {% case month %}
+        {% when '08' %}
+          Fall {{ year }}
+        {% when '01' %}
+          Spring {{ year }}
+      {% endcase %}
+      </strong>
+    </td>
+  {% else %}
+    <td>&nbsp;</td>
+  {% endif %}
+
+    <td style="width: 100%">
+      {% if course.strong %}
+        <strong>{{ course.number }} {{ course.title }}</strong>
+      {% else %}
+        <span>{{ course.number }} {{ course.title }}</span>
+      {% endif %}
+      {% if course.website %}<a href="{{ course.website }}"><i class="fa fa-link"></i></a>{% endif %}
+      <br/>
+      <span class="text-muted small">{{ course.details | join: ' &bull; ' }}</span>
+
+  </tr>
+  {% endfor %}
+{% endfor %}
+
+</tbody>
+</table>
+
+<p>Please double-check the official class schedule before registering for any courses.</p>

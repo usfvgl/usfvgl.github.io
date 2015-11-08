@@ -1,1 +1,140 @@
-
+---
+# Spring 2013
+- semester: 2013-01-22
+  courses :
+    - number : 'CS 360/686-01'
+      title  : 'Data Visualization'
+      website: 'https://sites.google.com/a/cs.usfca.edu/datavis/'
+      strong : True
+      details:
+        - 'Sophie Engle'
+        - 'MWF 1:00pm&ndash;2:05pm'
+        - 'HR 235'
+    - number : 'MSAN 622'
+      title  : 'Information Visualization'
+      website: 'https://sites.google.com/a/analytics.usfca.edu/msan-622-experimental-design-and-visualization/'
+      strong : True
+      details:
+        - 'Sophie Engle'
+        - 'TR 10:00am&ndash;11:45am'
+        - 'Presidio 110'
+# Fall 2013
+# - semester: 2013-08-20
+#   courses : False
+# Spring 2014
+- semester: 2014-01-21
+  courses :
+    - number : 'CS 686-03'
+      title  : 'Special Topics: Computer Graphics'
+      website: 'http://cs.usfca.edu/~apjoshi/cs686'
+      strong : True
+      details:
+        - 'Alark Joshi'
+        - 'TR 2:40pm&ndash;4:25pm'
+        - 'T 3:00pm&ndash;5:00pm'
+        - 'LS G12'
+    - number : 'CS 698-88'
+      title  : 'Directed Study: Visualization Research'
+      details:
+        - 'Alark Joshi'
+        - '2 Units'
+    - number : 'MSAN 622'
+      title  : 'Information Visualization'
+      website: 'http://datavis.analytics.usfca.edu/spring2014/'
+      strong : True
+      details:
+        - 'Sophie Engle'
+        - 'TR 3:00pm&ndash;4:50pm'
+        - 'Howard 451'
+# Fall 2014
+- semester: 2014-08-19
+  courses :
+    - number : 'CS 384'
+      title  : 'Research Seminar: Data Visualization'
+      website: 'http://cs.usfca.edu/~apjoshi/cs384/'
+      details:
+        - 'Alark Joshi'
+        - 'R 11:45am&ndash;12:40pm'
+        - 'LS 307'
+    - number : 'CS 686-02'
+      title  : 'Special Topics: Information Visualization'
+      website: 'http://cs.usfca.edu/~apjoshi/cs686'
+      strong : True
+      details:
+        - 'Alark Joshi'
+        - 'TR 4:35pm&ndash;6:20pm'
+        - 'LS G12'
+    - number : 'CS 698-92'
+      title  : 'Directed Study: Visualization Research'
+      details:
+        - 'Alark Joshi'
+        - '2 Units'
+    - number : 'CS 698-94'
+      title  : 'Directed Study: Security Visualization'
+      details:
+        - 'Sophie Engle'
+        - '3 Units'
+# Spring 2015
+- semester: 2015-01-26
+  courses :
+    - number : 'CS 398-13'
+      title  : 'Directed Study: Data Visualization'
+      details:
+        - 'Alark Joshi'
+        - '4 Units'
+    - number : 'CS 398-14'
+      title  : 'Directed Study: Visualization Research'
+      details:
+        - 'Alark Joshi'
+        - '4 Units'
+    - number : 'CS 698-95'
+      title  : 'Directed Study: Interactive Vis Vector Fields'
+      details:
+        - 'Alark Joshi'
+        - '4 Units'
+    - number : 'MSAN 622'
+      title  : 'Information Visualization'
+      website: 'https://usfca.instructure.com/courses/1480739/assignments/syllabus'
+      strong : True
+      details:
+        - 'Sophie Engle'
+        - 'TR 3:00pm&ndash;4:50pm'
+        - 'F 3:00pm&ndash;5:00pm'
+        - 'Howard 529'
+# Fall 2015
+- semester: 2015-08-25
+  courses :
+    - number : 'CS 384/694'
+      title  : 'Research Seminar: Data Visualization'
+      website: 'http://cs694.github.io/fall2015/'
+      details:
+        - 'Sophie Engle'
+        - 'R 2:40pm&ndash;3:55pm'
+        - 'LS 307'
+    - number : 'CS 398-22'
+      title  : 'Directed Study: Data Visualization in P5'
+      details:
+        - 'Sophie Engle and Alark Joshi'
+# Spring 2016
+- semester: 2016-01-25
+  courses :
+    - number : 'CS 360'
+      title  : 'Data Visualization'
+      strong : True
+      details:
+        - 'Sophie Engle'
+        - 'MWF 2:15pm&ndash;3:20pm'
+        - 'HR 235'
+    - number : 'CS 384/694'
+      title  : 'Research Seminar: Data Visualization'
+      details:
+        - 'Alark Joshi and Sophie Engle'
+        - 'M 1:00pm&ndash;2:05pm'
+        - 'LS 307'
+    - number : 'CS 686-01'
+      title  : 'Special Topics: Computer Graphics'
+      strong : True
+      details:
+        - 'Alark Joshi'
+        - 'TR 12:45pm&ndash;2:30pm'
+        - 'LS G12'
