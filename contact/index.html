@@ -3,11 +3,14 @@ layout: default
 title: Contact
 ---
 
-<p>Questions? Want to collaborate? Please contact any faculty member below.</p>
+<p>Questions? Want to collaborate? Follow us on Twitter or contact any faculty member below.</p>
 
 <div class="row">
-{% for person in site.data.people.faculty limit: 2 %}
-<div class="col-sm-6">
+<div class="col-md-8 col-md-push-4">
+
+<dl>
+{% for person in site.data.people.faculty %}
+
   <div class="media">
     <div class="media-left">
       <img class="media-object img-thumbnail" src="{{ site.github.url }}/images/{{ person.image }}" width="120">
@@ -16,7 +19,7 @@ title: Contact
     <div class="media-body">
       <h4 class="media-heading">{{ person.first }} {{ person.last }}</h4>
 
-      <p class="text-muted">{{ person.title | join: '<br/>' }}</p>
+      <p class="text-muted small">{{ person.title | join: '<br/>' }}</p>
 
       <p>
       {% for item in person.links %}
@@ -25,12 +28,12 @@ title: Contact
       </p>
     </div> <!-- end media-body /-->
   </div> <!-- end media /-->
-
-  <p>
-  {{ person.widget }}
-  </p>
-</div> <!-- end column /-->
 {% endfor %}
-</div> <!-- end row /-->
+</div>
 
-<p>You can also follow <a href="http://twitter.com/usfcs">@usfcs</a> on Twitter to see general updates from the <a href="http://cs.usfca.edu/">Department of Computer Science</a>.</p>
+<div class="col-md-4 col-md-pull-8">
+<a class="twitter-timeline" href="https://twitter.com/usfcs/lists/vgl-usf" data-widget-id="667875377444884480">Tweets from https://twitter.com/usfcs/lists/vgl-usf</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</script>
+</div>
+</div>
+

@@ -45,9 +45,6 @@ faculty:
       - name: 'apjoshi@usfca.edu'
         link: 'mailto:apjoshi@usfca.edu'
         icon: 'fa-envelope'
-    widget: |
-      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/alark" data-widget-id="663185603832352768">Tweets by @alark</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   - first: 'Sophie'
     last : 'Engle'
     image: 'engle.png'
@@ -71,9 +68,35 @@ faculty:
       - name: 'sjengle@cs.usfca.edu'
         link: 'mailto:sjengle@cs.usfca.edu'
         icon: 'fa-envelope'
-    widget: |
-      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/sjengle" data-widget-id="663185352065069056">Tweets by @sjengle</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  - first: 'Scott'
+    last : 'Murray'
+    image: 'murray.jpg'
+    title:
+      - 'Assistant Professor'
+      - 'Department of Art + Architecture'
+      - 'University of San Francisco'
+    about: |
+      Scott Murray is a code artist who writes software to create data
+      visualizations and other interactive phenomena. His work incorporates
+      elements of interaction design, systems design, and generative art.
+      Scott is a contributor to Processing, and author of "Interactive Data
+      Visualization for the Web: An Introduction to Designing with D3"
+      (O‘Reilly, 2013). Scott earned an AB in Environmental Theory from
+      Vassar College, and he received his MFA in Dynamic Media Design from
+      the Massachusetts College of Art and Design. He has exhibited
+      installations in San Francisco and Boston and taught workshops on
+      creative coding.
+    links:
+      - name: 'alignedleft.com'
+        link: 'http://alignedleft.com/'
+        icon: 'fa-globe'
+      - name: '@alignedleft'
+        link: 'https://twitter.com/alignedleft'
+        icon: 'fa-twitter'
+      - name: 'shmurray@usfca.edu'
+        link: 'mailto:shmurray@usfca.edu'
+        icon: 'fa-envelope'
+
 students:
   - first: 'Dejan'
     last : 'Djokic'
