@@ -18,8 +18,14 @@ normal:
           - 'TR 10:00am&ndash;11:45am'
           - 'Presidio 110'
   # Fall 2013
-  # - semester: 2013-08-20
-  #   courses : False
+  - semester: 2013-08-20
+    courses :
+      - number : 'ART 335'
+        title  : 'Information Visualization'
+        details:
+          - 'Scott Murray'
+          - 'TR 8:45am&ndash;11:30am'
+          - 'XARTS 006'
   # Spring 2014
   - semester: 2014-01-21
     courses :
@@ -55,6 +61,13 @@ normal:
           - 'Alark Joshi'
           - 'TR 4:35pm&ndash;6:20pm'
           - 'LS G12'
+      - number : 'ART 335'
+        title  : 'Information Visualization'
+        website: 'https://xarts.usfca.edu/~shmurray/ART%20335%20Fall%202014%20Info%20Vis%20Syllabus.pdf'
+        details:
+          - 'Scott Murray'
+          - 'MW 11:45am&ndash;2:30pm'
+          - 'XARTS 006'
   # Spring 2015
   - semester: 2015-01-26
     courses :
@@ -76,6 +89,12 @@ normal:
           - 'Sophie Engle'
           - 'R 2:40pm&ndash;3:55pm'
           - 'LS 307'
+      - number : 'ART 335'
+        title  : 'Information Visualization'
+        details:
+          - 'Scott Murray'
+          - 'MW 11:45am&ndash;2:30pm'
+          - 'XARTS 006'
   # Spring 2016
   - semester: 2016-01-25
     courses :
