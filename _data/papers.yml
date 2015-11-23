@@ -203,3 +203,11 @@ books:
     links   :
       - link: 'http://www.jdoqocy.com/click-6754088-11260198?url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920026938.do%3Fcmp%3Daf-strata-books-videos-product_cj_9781449339739_%2525zp&cjsku=0636920026938'
         icon: 'fa-book'
+  - title   : 'Art-inspired Techniques for Visualizing Time-varying Data: Novel Techniques for Effectively VisualizingTime-varying Data'
+    authors :
+      - 'Alark Joshi'
+    cite    : 'VDM Verlag'
+    date    : 2008-08-01
+    links   :
+      - link: 'http://www.amazon.com/Art-inspired-Techniques-Visualizing-Time-varying-VisualizingTime-varying/dp/363906769X/ref=sr_1_1?ie=UTF8&s=books&qid=1254347082&sr=8-1'
+        icon: 'fa-amazon'
