@@ -129,6 +129,19 @@ papers:
     links   :
       - link: 'http://coen.boisestate.edu/gravitas/files/2012/03/rsvp.pdf'
         icon: 'fa-file-pdf-o'
+  - title   : 'Changing Minds to Changing the World: Mapping the Spectrum of Intent in Data Visualization and Data Arts'
+    authors :
+      - 'Scott Murray'
+    cite    : 'New Challenges for Data Design, Ed. David Bihanic, London: Springer-Verlag'
+    pages   :
+      - 322
+      - 347
+    date    : 2014-12-28
+    links   :
+      - link: 'http://dx.doi.org/10.1007/978-1-4471-6596-5_16'
+        icon: 'fa-link'
+      - link: 'http://alignedleft.com/work/changing-minds'
+        icon: 'fa-globe'
 talks:
   - title   : 'Episode 13: Deconstructing VizSec with Lane Harrison and Sophie Engle'
     authors :
@@ -181,3 +194,12 @@ talks:
       - 'Alark Joshi'
     cite    : 'Idaho Statewide NonProfit Conference, Boise, Idaho'
     date    : 2012-09-01
+books:
+  - title   : 'Interactive Data Visualization for the Web: An Introduction to Designing with D3'
+    authors :
+      - 'Scott Murray'
+    cite    : "O'Reilly Media"
+    date    : 2013-03-01
+    links   :
+      - link: 'http://www.jdoqocy.com/click-6754088-11260198?url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920026938.do%3Fcmp%3Daf-strata-books-videos-product_cj_9781449339739_%2525zp&cjsku=0636920026938'
+        icon: 'fa-book'
