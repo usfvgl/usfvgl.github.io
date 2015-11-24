@@ -1,8 +1,8 @@
 {% comment %}
 This include handles generating a list of people. Must be provided the list to loop through.
 {% endcomment %}
-
-{% for person in include.data %}
+{% assign people = include.data | sort: 'last' %}
+{% for person in people %}
 <div class="media">
   {% if person.image %}
   <div class="media-left">

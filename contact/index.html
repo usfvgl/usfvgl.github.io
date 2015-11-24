@@ -9,7 +9,8 @@ title: Contact
 <div class="col-md-8 col-md-push-4">
 
 <dl>
-{% for person in site.data.people.faculty %}
+{% assign people = site.data.people.faculty | sort: 'last' %}
+{% for person in people %}
 
   <div class="media">
     <div class="media-left">
