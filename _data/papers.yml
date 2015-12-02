@@ -60,7 +60,7 @@ papers:
     links   :
       - link: 'http://cs.usfca.edu/~apjoshi/papers/Eurovis_2015_home_energy.pdf'
         icon: 'fa-file-pdf-o'
-  - title   : 'Evaluation-guided metrics for visualization on mobile devices'
+  - title   : 'Evaluation-guided metrics for Visualization on Mobile Devices'
     authors :
       - 'Peter Games'
       - 'Alark Joshi'
@@ -80,11 +80,11 @@ papers:
     links   :
       - link: 'http://cs.usfca.edu/~apjoshi/papers/ACM_VINCI_2014_cove.pdf'
         icon: 'fa-file-pdf-o'
-  - title   : 'Visualization of off-screen data on tablets using context-providing bar graphs and scatter plots'
+  - title   : 'Visualization of Off-Screen Data on Tablets using Context-Providing Bar Graphs and Scatter Plots'
     authors :
       - 'Peter Games'
       - 'Alark Joshi'
-    cite    : '<em>SPIE Visualization and Data Analysis conference</em>, <strong>Best Paper Award</strong>'
+    cite    : '<em>SPIE Visualization and Data Analysis Conference</em>, <strong>Best Paper Award</strong>'
     date    : 2014-02-01
     links   :
       - link: 'http://cs.usfca.edu/~apjoshi/papers/Games_Joshi_VDA2014.pdf'
