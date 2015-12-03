@@ -80,12 +80,12 @@ footer p {
 
 /* custom classes */
 
-.table-noborder th, .table-noborder td {
-  border-top: none !important;
-}
-
-.table-noborder table {
-  border: none;
+table.table-noborder,
+.table-noborder tbody,
+.table-noborder thead,
+.table-noborder th,
+.table-noborder td {
+  border: none !important;
 }
 
 /* usf official colors */
