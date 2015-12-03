@@ -60,7 +60,7 @@ papers:
     links   :
       - link: 'http://cs.usfca.edu/~apjoshi/papers/Eurovis_2015_home_energy.pdf'
         icon: 'fa-file-pdf-o'
-  - title   : 'Evaluation-guided metrics for Visualization on Mobile Devices'
+  - title   : 'Evaluation-guided Metrics for Visualization on Mobile Devices'
     authors :
       - 'Peter Games'
       - 'Alark Joshi'
