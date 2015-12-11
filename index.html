@@ -9,7 +9,6 @@ title: Home
 
 <h2>Latest News</h2>
 {% for post in site.categories.news limit: 5 %}
-{%
-  include post.html data=post
-%}{% endfor %}
+{% include post.html data=post %}
+{% endfor %}
 <p class="text-center small">[&nbsp;<a href="{{ site.github.url }}/news/">View all news posts.</a>&nbsp;]</p>
