@@ -8,21 +8,14 @@ icon: fa-university
 <p>We will be offering the following courses on visualization and/or graphics during the Spring 2016 semester:</p>
 
 <ul>
-{% for term in site.data.courses.normal %}{%
-  capture semester %}{{
-    term.semester | date: "%Y-%m" }}{%
-  endcapture %}{%
-  if semester == '2016-01' %}{%
-    for course in term.courses %}
+{% for term in site.data.courses.normal %}{% capture semester %}{{ term.semester | date: "%Y-%m" }}{% endcapture %} {% if semester == '2016-01' %}{% for course in term.courses %}
   <li>
     <p>
       {{ course.number }} {{ course.title }}<br/>
       <span class="text-muted small">{{ course.details | join: " &bull; " }}</span>
     </p>
   </li>
-    {% endfor %}{%
-  endif %}{%
-endfor %}
+    {% endfor %}{% endif %}{% endfor %}
 </ul>
 
 <p>As usual, you may also approach any of us to participate in a directed study if you are  interested in visualization research.</p>
