@@ -1,33 +1,24 @@
-{% comment %}
-This include handles generating a list of people. Must be provided the list to loop through.
-{% endcomment %}
-{% assign people = include.data | sort: 'last' %}
-{% for person in people %}
+{% assign people = include.data | sort: 'last' %}{% for person in people %}
+<!-- beg person -->
 <div class="media">
-  {% if person.image %}
-  <div class="media-left">
-    <img class="media-object img-thumbnail" src="{{ site.github.url }}/images/{{ person.image }}" width="120">
-  </div> <!-- end media-left /-->
-  {% endif %}
+{% if person.image %}<div class="media-left"><img class="media-object img-thumbnail" src="{{ site.github.url }}/images/{{ person.image }}" width="120"></div>{% endif %}
 
-  <div class="media-body">
-    <h4 class="media-heading">{{ person.first }} {{ person.last }}</h4>
+<!-- beg profile -->
+<div class="media-body">
+<h4 class="media-heading">{{ person.first }} {{ person.last }}</h4>
+{% if person.links %}
+<!-- profile links -->
+<p class="small text-muted">{% for item in person.links %}<a href="{{ item.link }}" class="btn btn-default btn-xs"><span class="text-primary"><i class="fa {{ item.icon }}"></i> {{ item.name }}</span></a> {% endfor %}</p>{% endif %}
+{% if person.title %}
+<!-- profile title -->
+<p class="small text-muted">{{ person.title | join: ', ' }}</p>{% endif %}
+{% if person.about %}
+<!-- profile text -->
+<p>
+{{ person.about }}</p>{% endif %}
+</div>
+<!-- end profile -->
 
-    {% if person.links %}
-    <p class="small text-muted">
-    {% for item in person.links %}
-      <a href="{{ item.link }}" class="btn btn-default btn-xs"><span class="text-primary"><i class="fa {{ item.icon }}"></i> {{ item.name }}</span></a>
-    {% endfor %}
-    </p>
-    {% endif %}
-
-    {% if person.title %}
-    <p class="small text-muted">{{ person.title | join: ', ' }}</p>
-    {% endif %}
-
-    {% if person.about %}
-    <p>{{ person.about }}</p>
-    {% endif %}
-  </div> <!-- end media-body /-->
-</div> <!-- end media /-->
+</div>
+<!-- end person -->
 {% endfor %}

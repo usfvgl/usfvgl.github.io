@@ -1,43 +1,17 @@
-{% assign courses = include.data | sort: 'semester' %}
-{% assign current = 2000-01-01 %}
-
+<!-- beg table -->
 <table class="table table-hover table-noborder">
 <tbody>
-
-{% for group in courses reversed %}
-  {% for course in group.courses | sort: 'number' %}
-  <tr>
-  {% if group.semester != current %}
-    {% assign current = group.semester %}
-    <td style="white-space: nowrap;">
-      <strong class="text-uppercase text-muted">
-      {% assign month = group.semester | date: "%m" %}
-      {% assign year  = group.semester | date: "%Y" %}
-      {% case month %}
-        {% when '08' %}
-          Fall {{ year }}
-        {% when '01' %}
-          Spring {{ year }}
-      {% endcase %}
-      </strong>
-    </td>
-  {% else %}
-    <td>&nbsp;</td>
-  {% endif %}
-
-    <td style="width: 100%">
-      {% if course.website %}
-        <a href="{{ course.website }}">{{ course.number }} {{ course.title }}</a>
-      {% else %}
-        <span>{{ course.number }} {{ course.title }}</span>
-      {% endif %}
-      <br/>
-      <span class="text-muted small">{{ course.details | join: ' &bull; ' }}</span>
-    </td>
-
-  </tr>
-  {% endfor %}
-{% endfor %}
-
+{% assign courses = include.data | sort: 'semester' %}{% assign current = 2000-01-01 %}{% for group in courses reversed %}{% for course in group.courses | sort: 'number' %}
+<!-- beg row -->
+<tr>
+{% if group.semester != current %}{% assign current = group.semester %}<td style="white-space: nowrap;"><strong class="text-uppercase text-muted">{% assign month = group.semester | date: "%m" %}{% assign year  = group.semester | date: "%Y" %}{% case month %}{% when '08' %}Fall {{ year }}{% when '01' %}Spring {{ year }}{% endcase %}</strong></td>{% else %}<td>&nbsp;</td>{% endif %}
+<td style="width: 100%">
+{% if course.website %}<a href="{{ course.website }}">{{ course.number }} {{ course.title }}</a>{% else %}<span>{{ course.number }} {{ course.title }}</span>{% endif %}<br/>
+<span class="text-muted small">{{ course.details | join: ' &bull; ' }}</span>
+</td>
+</tr>
+<!-- end row -->
+{% endfor %}{% endfor %}
 </tbody>
 </table>
+<!-- end table -->

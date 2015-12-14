@@ -1,25 +1,28 @@
-# Always make dates YYYY-MM-DD format. The day will not be shown, so default to "01" if needed.
+---
+# Always make dates YYYY-MM-DD format. The day will not be shown, so
+# default to "01" if needed. Order does not matter. Just add to the
+# right section. It will be sorted by date later.
 
-# Order does not matter. Just add, it will be sorted by date later.
+# TEMPLATE
 
-  # - title   : 'Title'
-  #   authors :
-  #     - 'Author'
-  #     - 'Author'
-  #   cite    : 'Cite'
-  #   pages   :
-  #     - 0
-  #     - 0
-  #   date    : 0000-00-00
-  #   links   :
-  #     - link: 'link'
-  #       icon: 'fa-link'
-  #     - link: 'link'
-  #       icon: 'fa-file-powerpoint-o'
-  #     - link: 'link'
-  #       icon: 'fa-file-pdf-o'
+# - title   : 'Title'
+#   authors :
+#     - 'Author'
+#     - 'Author'
+#   cite    : 'Cite'
+#   pages   :
+#     - 0
+#     - 0
+#   date    : 0000-00-00
+#   links   :
+#     - link: 'link'
+#       icon: 'fa-link'
+#     - link: 'link'
+#       icon: 'fa-file-powerpoint-o'
+#     - link: 'link'
+#       icon: 'fa-file-pdf-o'
 
-
+#############################
 papers:
   - title   : 'Reflecting on Visualization for Cyber Security'
     authors :
@@ -35,6 +38,7 @@ papers:
         icon: 'fa-link'
       - link: 'https://drive.google.com/file/d/0BxYofk0iB_upRm9XdHV5cU1QaVE/edit?usp=sharing'
         icon: 'fa-file-powerpoint-o'
+
   - title   : 'Visualizing Distributed Memory Computations with Hive Plots'
     authors :
       - 'Sophie Engle'
@@ -49,6 +53,7 @@ papers:
         icon: 'fa-link'
       - link: 'https://drive.google.com/file/d/0BxYofk0iB_upS3Z4M1FqM3REdUk/edit?usp=sharing'
         icon: 'fa-file-powerpoint-o'
+
   - title   : 'Visualization-assisted Insights into Home Energy Usage'
     authors :
       - 'Matt Law'
@@ -60,6 +65,7 @@ papers:
     links   :
       - link: 'http://cs.usfca.edu/~apjoshi/papers/Eurovis_2015_home_energy.pdf'
         icon: 'fa-file-pdf-o'
+
   - title   : 'Evaluation-guided Metrics for Visualization on Mobile Devices'
     authors :
       - 'Peter Games'
@@ -69,6 +75,9 @@ papers:
     links   :
       - link: 'http://cs.usfca.edu/~apjoshi/papers/evaluation-guidelines_vda2015.pdf'
         icon: 'fa-file-pdf-o'
+      - link : '#'
+        icon: 'fa-trophy'
+
   - title   : 'CoVE: A Colony Visualization System for Animal Pedigrees'
     authors :
       - 'Brady Cannon'
@@ -80,6 +89,7 @@ papers:
     links   :
       - link: 'http://cs.usfca.edu/~apjoshi/papers/ACM_VINCI_2014_cove.pdf'
         icon: 'fa-file-pdf-o'
+
   - title   : 'Visualization of Off-Screen Data on Tablets using Context-Providing Bar Graphs and Scatter Plots'
     authors :
       - 'Peter Games'
@@ -89,6 +99,9 @@ papers:
     links   :
       - link: 'http://cs.usfca.edu/~apjoshi/papers/Games_Joshi_VDA2014.pdf'
         icon: 'fa-file-pdf-o'
+      - link : '#'
+        icon: 'fa-trophy'
+
   - title   : 'DriveSense: Contextual Handling of Large-scale Route Map Data for the Automobile'
     authors :
       - 'Frederik Wiehr'
@@ -99,6 +112,7 @@ papers:
     links   :
       - link: 'http://vis.ucdavis.edu/Workshops/BigDataVis2013/'
         icon: 'fa-file-pdf-o'
+
   - title   : 'Visualizing Disease Incidence in the Context of Socioeconomic Factors'
     authors :
       - 'Jared Shenson'
@@ -108,6 +122,7 @@ papers:
     links   :
       - link: 'http://dl.acm.org/citation.cfm?id=2397701&CFID=170022331&CFTOKEN=38387273'
         icon: 'fa-file-pdf-o'
+
   - title   : 'Auto(mobile): Mobile Visual Interfaces for the Road'
     authors :
       - 'Frederik Wiehr'
@@ -118,6 +133,7 @@ papers:
     links   :
       - link: 'http://dl.acm.org/citation.cfm?id=2341910.2341919&coll=DL&dl=GUIDE&CFID=170022331&CFTOKEN=38387273'
         icon: 'fa-file-pdf-o'
+
   - title   : 'RSVP: Remote Sensing Visualization Platform for Data Fusion'
     authors :
       - 'Vanessa Gertman'
@@ -129,6 +145,7 @@ papers:
     links   :
       - link: 'http://coen.boisestate.edu/gravitas/files/2012/03/rsvp.pdf'
         icon: 'fa-file-pdf-o'
+
   - title   : 'Changing Minds to Changing the World: Mapping the Spectrum of Intent in Data Visualization and Data Arts'
     authors :
       - 'Scott Murray'
@@ -142,6 +159,8 @@ papers:
         icon: 'fa-link'
       - link: 'http://alignedleft.com/work/changing-minds'
         icon: 'fa-globe'
+
+#############################
 talks:
   - title   : 'Episode 13: Deconstructing VizSec with Lane Harrison and Sophie Engle'
     authors :
@@ -154,6 +173,7 @@ talks:
     links   :
       - link: 'http://datadrivensecurity.info/podcast/data-driven-security-episode-13.html'
         icon: 'fa-headphones'
+
   - title   : 'How Good People Make Bad Graphs: Unintentional Fibbing with Visualization'
     authors :
       - 'Sophie Engle'
@@ -164,6 +184,7 @@ talks:
         icon: 'fa-link'
       - link: 'http://files.meetup.com/10892752/Slides_SophieEngle.pdf'
         icon: 'fa-file-powerpoint-o'
+
   - title   : 'Reflecting on Visualization for Cyber Security'
     authors :
       - 'Sophie Engle'
@@ -172,6 +193,7 @@ talks:
     links   :
       - link: 'https://drive.google.com/file/d/0BxYofk0iB_upbUNQTmRWcllfUFE/edit?usp=sharing'
         icon: 'fa-file-powerpoint-o'
+
   - title   : 'Smart Interfaces for Mobile Devices'
     authors :
       - 'Alark Joshi'
@@ -184,16 +206,20 @@ talks:
         icon: 'fa-file-powerpoint-o'
       - link: 'https://www.youtube.com/watch?v=Sz9gyNsXwis'
         icon: 'fa-youtube-play'
+
   - title   : 'Help Students SEE it! Using Online Visualization Tools for Interactive Data Analysis'
     authors :
       - 'Alark Joshi'
     cite    : 'Center for Teaching &amp; Learning at Boise State University, Boise, Idaho'
     date    : 2012-09-01
+
   - title   : 'Data Visualization for Nonprofits'
     authors :
       - 'Alark Joshi'
     cite    : 'Idaho Statewide NonProfit Conference, Boise, Idaho'
     date    : 2012-09-01
+
+#############################
 books:
   - title   : 'Interactive Data Visualization for the Web: An Introduction to Designing with D3'
     authors :
@@ -203,6 +229,7 @@ books:
     links   :
       - link: 'http://www.jdoqocy.com/click-6754088-11260198?url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920026938.do%3Fcmp%3Daf-strata-books-videos-product_cj_9781449339739_%2525zp&cjsku=0636920026938'
         icon: 'fa-book'
+
   - title   : 'Art-inspired Techniques for Visualizing Time-varying Data: Novel Techniques for Effectively VisualizingTime-varying Data'
     authors :
       - 'Alark Joshi'

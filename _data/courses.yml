@@ -1,4 +1,19 @@
 ---
+# There are two sections: normal courses and directed studies.
+# Data is further divided into semester, given in yyyy-mm-dd
+# format corresponding to the first day of class.
+
+# TEMPLATE
+
+# - number : 'CS ???'
+#   title  : 'Title'
+#   website: '#'
+#   details:
+#     - 'Instructor'
+#     - 'When'
+#     - 'Where'
+
+
 normal:
   # Spring 2013
   - semester: 2013-01-22
@@ -10,6 +25,7 @@ normal:
           - 'Sophie Engle'
           - 'MWF 1:00pm&ndash;2:05pm'
           - 'HR 235'
+
       - number : 'MSAN 622'
         title  : 'Information Visualization'
         website: 'https://sites.google.com/a/analytics.usfca.edu/msan-622-experimental-design-and-visualization/'
@@ -17,6 +33,7 @@ normal:
           - 'Sophie Engle'
           - 'TR 10:00am&ndash;11:45am'
           - 'Presidio 110'
+
   # Fall 2013
   - semester: 2013-08-20
     courses :
@@ -26,6 +43,7 @@ normal:
           - 'Scott Murray'
           - 'TR 8:45am&ndash;11:30am'
           - 'XARTS 006'
+
   # Spring 2014
   - semester: 2014-01-21
     courses :
@@ -37,6 +55,7 @@ normal:
           - 'TR 2:40pm&ndash;4:25pm'
           - 'T 3:00pm&ndash;5:00pm'
           - 'LS G12'
+
       - number : 'MSAN 622'
         title  : 'Information Visualization'
         website: 'http://datavis.analytics.usfca.edu/spring2014/'
@@ -44,6 +63,7 @@ normal:
           - 'Sophie Engle'
           - 'TR 3:00pm&ndash;4:50pm'
           - 'Howard 451'
+
   # Fall 2014
   - semester: 2014-08-19
     courses :
@@ -54,6 +74,7 @@ normal:
           - 'Alark Joshi'
           - 'R 11:45am&ndash;12:40pm'
           - 'LS 307'
+
       - number : 'CS 686-02'
         title  : 'Special Topics: Information Visualization'
         website: 'http://cs.usfca.edu/~apjoshi/cs686'
@@ -61,6 +82,7 @@ normal:
           - 'Alark Joshi'
           - 'TR 4:35pm&ndash;6:20pm'
           - 'LS G12'
+
       - number : 'ART 335'
         title  : 'Information Visualization'
         website: 'https://xarts.usfca.edu/~shmurray/ART%20335%20Fall%202014%20Info%20Vis%20Syllabus.pdf'
@@ -68,6 +90,7 @@ normal:
           - 'Scott Murray'
           - 'MW 11:45am&ndash;2:30pm'
           - 'XARTS 006'
+
   # Spring 2015
   - semester: 2015-01-26
     courses :
@@ -79,6 +102,7 @@ normal:
           - 'TR 3:00pm&ndash;4:50pm'
           - 'F 3:00pm&ndash;5:00pm'
           - 'Howard 529'
+
   # Fall 2015
   - semester: 2015-08-25
     courses :
@@ -89,12 +113,14 @@ normal:
           - 'Sophie Engle'
           - 'R 2:40pm&ndash;3:55pm'
           - 'LS 307'
+
       - number : 'ART 335'
         title  : 'Information Visualization'
         details:
           - 'Scott Murray'
           - 'MW 11:45am&ndash;2:30pm'
           - 'XARTS 006'
+
   # Spring 2016
   - semester: 2016-01-25
     courses :
@@ -104,18 +130,22 @@ normal:
           - 'Sophie Engle'
           - 'MWF 2:15pm&ndash;3:20pm'
           - 'HR 235'
+
       - number : 'CS 384/694'
         title  : 'Research Seminar in CS'
         details:
           - 'Alark Joshi, Sophie Engle'
           - 'M 1:00pm&ndash;2:05pm'
           - 'LS 307'
+
       - number : 'CS 686-01'
         title  : 'Special Topics: Computer Graphics'
         details:
           - 'Alark Joshi'
           - 'TR 12:45pm&ndash;2:30pm'
           - 'LS G12'
+
+#############################
 directed:
   # Spring 2014
   - semester: 2014-01-21
@@ -125,6 +155,7 @@ directed:
         details:
           - 'Alark Joshi'
           - '2 Units'
+
   # Fall 2014
   - semester: 2014-08-19
     courses :
@@ -133,11 +164,13 @@ directed:
         details:
           - 'Alark Joshi'
           - '2 Units'
+
       - number : 'CS 698-94'
         title  : 'Security Visualization'
         details:
           - 'Sophie Engle'
           - '3 Units'
+
   # Spring 2015
   - semester: 2015-01-26
     courses :
@@ -146,16 +179,19 @@ directed:
         details:
           - 'Alark Joshi'
           - '4 Units'
+
       - number : 'CS 398-14'
         title  : 'Visualization Research'
         details:
           - 'Alark Joshi'
           - '4 Units'
+
       - number : 'CS 698-95'
         title  : 'Interactive Vis Vector Fields'
         details:
           - 'Alark Joshi'
           - '4 Units'
+
   # Fall 2015
   - semester: 2015-08-25
     courses :

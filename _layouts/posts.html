@@ -7,27 +7,36 @@
 <div class="container">
 <h1 class="page-header">News</h1>
 
-<!-- begin post //-->
+{% comment %}
+For some reason, I am unable to use the template for this.
+Explore again when Github Pages updates its version of Jekyll.
+{% endcomment %}
+
+<!-- beg post -->
 <div class="panel panel-default">
 
+<!-- beg post heading -->
 <div class="panel-heading">
-  <h3 class="panel-title">{% if page.icon %}
-    <span class="pull-right"><i class="fa {{ page.icon }}"></i></span>{% endif %}
-    <a href="{{ include.data.url }}">{{ page.title }}</a>
-  </h3>
-</div> <!-- end post heading //-->
+<h3 class="panel-title">{% if page.icon %}<span class="pull-right"><i class="fa {{ page.icon }}"></i></span>{% endif %}<a href="{{ page.url }}">{{ page.title }}</a></h3>
+</div>
+<!-- end post heading -->
 
+<!-- beg post body -->
 <div class="panel-body">
 {{ content }}
 
+<!-- beg post footer -->
 <div class="text-muted text-right">
-  <em><small>
-    Posted {{ page.date | date: '%B %d, %Y' }}{% if page.author %}
-    by {{ page.author }}{% endif %}
-  </small></em>
-</div> <!-- end post footer //-->
-</div> <!-- end post body //-->
+<em><small>Posted {{ page.date | date: '%B %d, %Y' }}{% if page.author %} by {{ page.author }}{% endif %}</small></em>
+</div>
+<!-- end post footer -->
 
-</div> <!-- end post //-->
+</div>
+<!-- end post body -->
+
+</div>
+<!-- end post -->
+
+<p class="text-center small">[&nbsp;<a href="{{ site.github.url }}/news/">View all news posts.</a>&nbsp;]</p>
 
 {% include footer.html %}
