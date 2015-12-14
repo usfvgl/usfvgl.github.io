@@ -1,5 +1,4 @@
 ---
-
 # All icons are Font Awesome icons. See a list at:
 # https://fortawesome.github.io/Font-Awesome/icons/
 
@@ -16,6 +15,7 @@
 #     link: [link to website]
 #     icon: [fontawesome icon]
 
+#############################
 faculty:
   - first: 'Alark'
     last : 'Joshi'
@@ -45,6 +45,7 @@ faculty:
       - name: 'apjoshi@usfca.edu'
         link: 'mailto:apjoshi@usfca.edu'
         icon: 'fa-envelope'
+
   - first: 'Sophie'
     last : 'Engle'
     image: 'engle.png'
@@ -68,6 +69,7 @@ faculty:
       - name: 'sjengle@cs.usfca.edu'
         link: 'mailto:sjengle@cs.usfca.edu'
         icon: 'fa-envelope'
+
   - first: 'Scott'
     last : 'Murray'
     image: 'murray.jpg'
@@ -97,6 +99,7 @@ faculty:
         link: 'mailto:shmurray@usfca.edu'
         icon: 'fa-envelope'
 
+#############################
 students:
   - first: 'Dejan'
     last : 'Djokic'
@@ -109,6 +112,7 @@ students:
       - name: 'ddjokic@usfca.edu'
         link: 'mailto:ddjokic@usfca.edu'
         icon: 'fa-envelope'
+
   - first: 'Helen'
     last : 'Chen'
     image: 'chen.jpg'
@@ -120,3 +124,28 @@ students:
       - name: 'hhchen@usfca.edu'
         link: 'mailto:hhchen@usfca.edu'
         icon: 'fa-envelope'
+
+  - first: 'Brian'
+    last : 'Bushree'
+    image: 'bushree.jpg'
+    title:
+      - 'Undergraduate'
+      - 'Computer Science Major'
+      - 'University of San Francisco'
+    links:
+      - name: 'bcbushree@usfca.edu'
+        link: 'mailto:bcbushree@usfca.edu'
+        icon: 'fa-envelope'
+
+  - first: 'Rubin'
+    last : 'Trailor'
+    image: 'trailor.jpg'
+    title:
+      - 'Undergraduate'
+      - 'Computer Science Major'
+      - 'University of San Francisco'
+    links:
+      - name: 'rmtrailor@usfca.edu'
+        link: 'mailto:rmtrailor@usfca.edu'
+        icon: 'fa-envelope'
+
