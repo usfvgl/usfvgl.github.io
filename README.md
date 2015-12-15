@@ -12,7 +12,7 @@ If you want to add a news post, you must place a file with the correct format in
 yyyy-mm-dd-short-title.html
 ```
 
-See one of the existing files for the required header. The content can be written in Markdown or HTML (using Bootstrap classes).
+See one of the existing files for the required header. The content can be written in Markdown or HTML using Bootstrap classes. This is the same process for adding DVSS events (but the templates require more information).
 
 The other files and templates only need to be modified if you are changing the style or paragraph text that appears at the start of each page.
 
