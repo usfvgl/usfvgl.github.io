@@ -3,13 +3,13 @@ layout: events
 title: Event Archive
 ---
 
-{% assign semesters = site.categories.events | group_by: 'semester' | sort: 'date' %}
+{% assign semesters = site.categories.events | sort: 'date' | group_by: 'semester' %}
 
 <p><a href="https://www.youtube.com/channel/UCdR4UIG2veLySCLWqNzzhWg"><img src="{{ site.github.url }}/images/youtube.png" class="img-responsive" width="200"></a></p>
 
 <p>Visit our <a href="https://www.youtube.com/channel/UCdR4UIG2veLySCLWqNzzhWg">YouTube Channel</a> for video recordings of our past events. Recordings are usually posted within a month after the end of the event.</p>
 
-{% for semester in semesters %}
+{% for semester in semesters reversed %}
 <h3>{{ semester.name }}</h3>
 
 <table class="table table-hover table-noborder table-responsive">
@@ -29,19 +29,17 @@ title: Event Archive
 </table>
 {% endfor %}
 
+{% assign fliers = site.categories.events | sort: 'date' | group_by: 'flyer' %} {% assign fliers = fliers | map: 'name' | join: " " | split: " " %}
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- indicators -->
-  <ol class="carousel-indicators">{% for semester in semesters %}
+  <ol class="carousel-indicators">{% for flyer in fliers reversed %}
     <li data-target="#carousel-example-generic" data-slide-to="{{ forloop.index0 }}"{% if forloop.first == true %} class="active"{% endif %}></li>{% endfor %}
   </ol>
 
   <!-- wrapper for slides -->
-  <div class="carousel-inner" role="listbox">{% for semester in semesters %}
+  <div class="carousel-inner" role="listbox">{% for flyer in fliers reversed %}
     <div class="item{% if forloop.first == true %} active{% endif %}">
-      <a href="{{ site.github.url }}/events/"><img src="{{ site.github.url }}/images/flyer-{{ semester.name | downcase | replace: ' ', '-' }}.jpg">
-      <div class="carousel-caption">
-        {{ semester.name }} Data Visualization Speaker Series
-      </div>
+      <a href="{{ site.github.url }}/events/"><img src="{{ site.github.url }}/images/{{ flyer }}">
     </div>{% endfor %}
   </div>
 

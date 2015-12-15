@@ -29,9 +29,9 @@ The <strong class="usf-green">Data Visualization Speaker Series (DVSS)</strong> 
 
 {{ content }}
 
-<h3>Abstract</h3>
+{% if page.abstract %}<h3>Abstract</h3>
 
-{{ page.abstract }}
+{{ page.abstract }}{% endif %}
 
 <h3>Schedule</h3>
 
@@ -63,9 +63,9 @@ The <strong class="usf-green">Data Visualization Speaker Series (DVSS)</strong> 
 <a href="https://youtu.be/{{ youtube }}" class="small">https://youtu.be/{{ youtube }}</a></p>
 {% endif %}
 
-<h3>Event Flyer</h3>
+{% if page.flyer %}<h3>Event Flyer</h3>
 
-{% if page.abstract %}<p><img src="{{ site.github.url }}/images/flyer-{{ page.semester | downcase | replace: ' ', '-' }}.jpg" class="img-responsive"></p>{% else %}<p>Pending.</p>{% endif %}
+<p><img src="{{ site.github.url }}/images/{{ page.flyer }}" class="img-responsive"></p>{% endif %}
 
 </div>
 
