@@ -108,7 +108,7 @@ normal:
     courses :
       - number : 'CS 384/694'
         title  : 'Research Seminar in CS'
-        website: 'http://cs694.github.io/fall2015/'
+        website: 'http://researchseminar.cs.usfca.edu/fall2015/'
         details:
           - 'Sophie Engle'
           - 'R 2:40pm&ndash;3:55pm'
@@ -126,6 +126,7 @@ normal:
     courses :
       - number : 'CS 360'
         title  : 'Data Visualization'
+        website: 'http://cs360.cs.usfca.edu/spring2016/'
         details:
           - 'Sophie Engle'
           - 'MWF 2:15pm&ndash;3:20pm'
@@ -133,6 +134,7 @@ normal:
 
       - number : 'CS 384/694'
         title  : 'Research Seminar in CS'
+        website: 'http://researchseminar.cs.usfca.edu/spring2016/'
         details:
           - 'Alark Joshi, Sophie Engle'
           - 'M 1:00pm&ndash;2:05pm'
