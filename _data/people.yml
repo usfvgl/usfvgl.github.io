@@ -120,6 +120,15 @@ students:
       - 'Undergraduate'
       - 'Computer Science Major'
       - 'University of San Francisco'
+    about: |
+      Helen Chen is currently a second bachelor's student in Computer Science
+      at USF. She received her first bachelor's degree in Economics and has
+      spent six years working extensively with data in the retail sector as an
+      inventory planner. She also spent one year teaching middle school
+      students, where she developed a strong appreciation for data-driven
+      instruction. As a consumer of data through her seven years of work
+      experiences, she is particularly interested in seeing how data
+      visualization can help drive better decision making.
     links:
       - name: 'hhchen@usfca.edu'
         link: 'mailto:hhchen@usfca.edu'
