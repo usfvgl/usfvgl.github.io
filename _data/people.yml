@@ -141,6 +141,13 @@ students:
       - 'Undergraduate'
       - 'Computer Science Major'
       - 'University of San Francisco'
+    about: |
+      Brian Bushree is an Undergraduate student studying Computer Science
+      at USF. He is an ambitious novice programmer with aspirations to become
+      a Website Architect. Brian is currently working to gain experience in
+      the field of web design/construction. He works for USF's School of
+      Management, helping to maintain, update, and fix the school's new
+      website.
     links:
       - name: 'bcbushree@usfca.edu'
         link: 'mailto:bcbushree@usfca.edu'
