@@ -165,3 +165,33 @@ students:
         link: 'mailto:rmtrailor@usfca.edu'
         icon: 'fa-envelope'
 
+  - first: 'Laura'
+    last : 'Stevenson'
+    image: 'stevenson.jpg'
+    title:
+      - 'Undergraduate'
+      - 'Graphic Design Major, CS Minor'
+      - 'University of San Francisco'
+    links:
+      - name: 'ljstevenson@usfca.edu'
+        link: 'mailto:ljstevenson@usfca.edu'
+        icon: 'fa-envelope'
+    about: |
+      Laura Stevenson is an undergraduate student majoring in graphic design
+      and minoring in computer science. She is a member of the Computer Science
+      for High School tutoring program here on campus and aspires to work as a
+      web designer where she can use her background in programming and design.
+
+  - first: 'Casey'
+    last : 'Haber'
+    image: 'haber.jpg'
+    title:
+      - 'Undergraduate'
+      - 'Design Major'
+      - 'University of San Francisco'
+    links:
+      - name: 'cahaber@usfca.edu'
+        link: 'mailto:cahaber@usfca.edu'
+        icon: 'fa-envelope'
+
+
