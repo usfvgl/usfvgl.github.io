@@ -101,17 +101,17 @@ faculty:
 
 #############################
 students:
-  - first: 'Dejan'
-    last : 'Djokic'
-    image: 'djokic.jpg'
-    title:
-      - 'Undergraduate'
-      - 'Computer Science Major'
-      - 'University of San Francisco'
-    links:
-      - name: 'ddjokic@usfca.edu'
-        link: 'mailto:ddjokic@usfca.edu'
-        icon: 'fa-envelope'
+  # - first: 'Dejan'
+  #   last : 'Djokic'
+  #   image: 'djokic.jpg'
+  #   title:
+  #     - 'Undergraduate'
+  #     - 'Computer Science Major'
+  #     - 'University of San Francisco'
+  #   links:
+  #     - name: 'ddjokic@usfca.edu'
+  #       link: 'mailto:ddjokic@usfca.edu'
+  #       icon: 'fa-envelope'
 
   - first: 'Helen'
     last : 'Chen'
@@ -134,70 +134,100 @@ students:
         link: 'mailto:hhchen@usfca.edu'
         icon: 'fa-envelope'
 
-  - first: 'Brian'
-    last : 'Bushree'
-    image: 'bushree.jpg'
-    title:
-      - 'Undergraduate'
-      - 'Computer Science Major'
-      - 'University of San Francisco'
-    about: |
-      Brian Bushree is an Undergraduate student studying Computer Science
-      at USF. He is an ambitious novice programmer with aspirations to become
-      a Website Architect. Brian is currently working to gain experience in
-      the field of web design/construction. He works for USF's School of
-      Management, helping to maintain, update, and fix the school's new
-      website.
-    links:
-      - name: 'bcbushree@usfca.edu'
-        link: 'mailto:bcbushree@usfca.edu'
-        icon: 'fa-envelope'
+  # - first: 'Brian'
+  #   last : 'Bushree'
+  #   image: 'bushree.jpg'
+  #   title:
+  #     - 'Undergraduate'
+  #     - 'Computer Science Major'
+  #     - 'University of San Francisco'
+  #   about: |
+  #     Brian Bushree is an Undergraduate student studying Computer Science
+  #     at USF. He is an ambitious novice programmer with aspirations to become
+  #     a Website Architect. Brian is currently working to gain experience in
+  #     the field of web design/construction. He works for USF's School of
+  #     Management, helping to maintain, update, and fix the school's new
+  #     website.
+  #   links:
+  #     - name: 'bcbushree@usfca.edu'
+  #       link: 'mailto:bcbushree@usfca.edu'
+  #       icon: 'fa-envelope'
 
-  - first: 'Rubin'
-    last : 'Trailor'
-    image: 'trailor.jpg'
-    title:
-      - 'Undergraduate'
-      - 'Computer Science Major'
-      - 'University of San Francisco'
-    about: |
-      Rubin Trailor is an undergraduate student pursuing a B.Sc. in Computer
-      Science and a minor in Mathematics. He is interested in using programming
-      as a medium to visualize information. The fields he is interested in are
-      game development, computer graphics, and data visualization. He currently
-      works as a TA for the course Introduction to Computer Science II.
-    links:
-      - name: 'rmtrailor@usfca.edu'
-        link: 'mailto:rmtrailor@usfca.edu'
-        icon: 'fa-envelope'
+  # - first: 'Rubin'
+  #   last : 'Trailor'
+  #   image: 'trailor.jpg'
+  #   title:
+  #     - 'Undergraduate'
+  #     - 'Computer Science Major'
+  #     - 'University of San Francisco'
+  #   about: |
+  #     Rubin Trailor is an undergraduate student pursuing a B.Sc. in Computer
+  #     Science and a minor in Mathematics. He is interested in using programming
+  #     as a medium to visualize information. The fields he is interested in are
+  #     game development, computer graphics, and data visualization. He currently
+  #     works as a TA for the course Introduction to Computer Science II.
+  #   links:
+  #     - name: 'rmtrailor@usfca.edu'
+  #       link: 'mailto:rmtrailor@usfca.edu'
+  #       icon: 'fa-envelope'
 
-  - first: 'Laura'
-    last : 'Stevenson'
-    image: 'stevenson.jpg'
-    title:
-      - 'Undergraduate'
-      - 'Graphic Design Major, CS Minor'
-      - 'University of San Francisco'
-    links:
-      - name: 'ljstevenson@usfca.edu'
-        link: 'mailto:ljstevenson@usfca.edu'
-        icon: 'fa-envelope'
-    about: |
-      Laura Stevenson is an undergraduate student majoring in graphic design
-      and minoring in computer science. She is a member of the Computer Science
-      for High School tutoring program here on campus and aspires to work as a
-      web designer where she can use her background in programming and design.
+  # - first: 'Laura'
+  #   last : 'Stevenson'
+  #   image: 'stevenson.jpg'
+  #   title:
+  #     - 'Undergraduate'
+  #     - 'Graphic Design Major, CS Minor'
+  #     - 'University of San Francisco'
+  #   links:
+  #     - name: 'ljstevenson@usfca.edu'
+  #       link: 'mailto:ljstevenson@usfca.edu'
+  #       icon: 'fa-envelope'
+  #   about: |
+  #     Laura Stevenson is an undergraduate student majoring in graphic design
+  #     and minoring in computer science. She is a member of the Computer Science
+  #     for High School tutoring program here on campus and aspires to work as a
+  #     web designer where she can use her background in programming and design.
 
   - first: 'Casey'
     last : 'Haber'
     image: 'haber.jpg'
     title:
       - 'Undergraduate'
-      - 'Design Major'
+      - 'Computer Science Major'
       - 'University of San Francisco'
+    about: |
+      <p>Casey Haber was originally a Design major before switching to Computer
+      Science. He is highly interested in the interactions between everyday
+      people, nature and technology. Casey loves art, code and the process of
+      creative exploration. He intends to employ my studies to create
+      innovative methods for exploring creativity and education inside the
+      realm of technology.</p><p class="small text-muted">See "Do Defaults
+      Matter? Evaluating the Effect of Defaults on User Preference for
+      Multi-Class Scatterplots" in our <a href="/papers">Papers</a> section for an
+      example of Casey's research.</p>
     links:
-      - name: 'cahaber@usfca.edu'
-        link: 'mailto:cahaber@usfca.edu'
+      - name: 'cahaber@dons.usfca.edu'
+        link: 'mailto:cahaber@dons.usfca.edu'
         icon: 'fa-envelope'
 
+  - first: 'Lyndon'
+    last : 'Ong Yiu'
+    image: 'ongyiu.jpg'
+    title:
+      - 'Undergraduate'
+      - 'Computer Science Major'
+      - 'University of San Francisco'
+    about: |
+      <p>Lyndon is currently majoring in Computer Science at USF. Over the last
+      few years, CS has become a passion of his due to a lifelong adoration
+      of puzzle-solving and spending embarassing amounts of time inside on his
+      computer. Lyndon is particularly interested in music software and data
+      visualization.</p><p class="small text-muted">See "Do Defaults
+      Matter? Evaluating the Effect of Defaults on User Preference for
+      Multi-Class Scatterplots" in our <a href="/papers">Papers</a> section for an
+      example of Lyndon's research.</p>
+    links:
+      - name: 'lcongyiu@dons.usfca.edu'
+        link: 'mailto:lcongyiu@dons.usfca.edu'
+        icon: 'fa-envelope'
 

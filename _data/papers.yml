@@ -23,7 +23,7 @@
 #       icon: 'fa-file-pdf-o'
 
 #############################
-papers:
+publications:
   - title   : 'Reflecting on Visualization for Cyber Security'
     authors :
       - 'Carrie Gates'
@@ -70,13 +70,13 @@ papers:
     authors :
       - 'Peter Games'
       - 'Alark Joshi'
-    cite    : '<em>SPIE Visualization and Data Analysis conference</em>, <strong>Best Paper Award</strong>'
+    cite    : '<em>SPIE Visualization and Data Analysis Conference</em>, <strong>Best Paper Award</strong>'
     date    : 2015-02-01
     links   :
+      - link : false
+        icon: 'fa-trophy'
       - link: 'http://cs.usfca.edu/~apjoshi/papers/evaluation-guidelines_vda2015.pdf'
         icon: 'fa-file-pdf-o'
-      - link : '#'
-        icon: 'fa-trophy'
 
   - title   : 'CoVE: A Colony Visualization System for Animal Pedigrees'
     authors :
@@ -97,17 +97,17 @@ papers:
     cite    : '<em>SPIE Visualization and Data Analysis Conference</em>, <strong>Best Paper Award</strong>'
     date    : 2014-02-01
     links   :
+      - link : false
+        icon: 'fa-trophy'
       - link: 'http://cs.usfca.edu/~apjoshi/papers/Games_Joshi_VDA2014.pdf'
         icon: 'fa-file-pdf-o'
-      - link : '#'
-        icon: 'fa-trophy'
 
   - title   : 'DriveSense: Contextual Handling of Large-scale Route Map Data for the Automobile'
     authors :
       - 'Frederik Wiehr'
       - 'Vidya Setlur'
       - 'Alark Joshi'
-    cite    : '<em>IEEE Big Data Visualization workshop</em>'
+    cite    : '<em>IEEE Big Data Visualization Workshop</em>'
     date    : 2013-10-01
     links   :
       - link: 'http://vis.ucdavis.edu/Workshops/BigDataVis2013/'
@@ -160,67 +160,6 @@ papers:
       - link: 'http://alignedleft.com/work/changing-minds'
         icon: 'fa-globe'
 
-#############################
-talks:
-  - title   : 'Episode 13: Deconstructing VizSec with Lane Harrison and Sophie Engle'
-    authors :
-      - 'Lane Harrison'
-      - 'Sophie Engle'
-      - 'Bob Rudis'
-      - 'Jay Jacobs'
-    cite    : 'Data Driven Security: The Podcast'
-    date    : 2014-12-01
-    links   :
-      - link: 'http://datadrivensecurity.info/podcast/data-driven-security-episode-13.html'
-        icon: 'fa-headphones'
-
-  - title   : 'How Good People Make Bad Graphs: Unintentional Fibbing with Visualization'
-    authors :
-      - 'Sophie Engle'
-    cite    : 'Big Data Visualization Meetup, CA Technologies Inc., Santa Clara, California'
-    date    : 2014-05-01
-    links   :
-      - link: 'http://www.meetup.com/Big-Data-Visualisation-South-Bay/events/179051462/'
-        icon: 'fa-link'
-      - link: 'http://files.meetup.com/10892752/Slides_SophieEngle.pdf'
-        icon: 'fa-file-powerpoint-o'
-
-  - title   : 'Reflecting on Visualization for Cyber Security'
-    authors :
-      - 'Sophie Engle'
-    cite    : 'SRI International CSL Seminar, Menlo Park, California'
-    date    : 2013-09-01
-    links   :
-      - link: 'https://drive.google.com/file/d/0BxYofk0iB_upbUNQTmRWcllfUFE/edit?usp=sharing'
-        icon: 'fa-file-powerpoint-o'
-
-  - title   : 'Smart Interfaces for Mobile Devices'
-    authors :
-      - 'Alark Joshi'
-    cite    : 'Big Data Visualization Meetup, CA Technologies Inc., Santa Clara, California'
-    date    : 2015-02-01
-    links   :
-      - link: 'http://www.meetup.com/Big-Data-Visualisation-South-Bay/events/220162897/'
-        icon: 'fa-link'
-      - link: 'http://files.meetup.com/10892752/Visual_Interfaces_Mobile_Devices2.pptx'
-        icon: 'fa-file-powerpoint-o'
-      - link: 'https://www.youtube.com/watch?v=Sz9gyNsXwis'
-        icon: 'fa-youtube-play'
-
-  - title   : 'Help Students SEE it! Using Online Visualization Tools for Interactive Data Analysis'
-    authors :
-      - 'Alark Joshi'
-    cite    : 'Center for Teaching &amp; Learning at Boise State University, Boise, Idaho'
-    date    : 2012-09-01
-
-  - title   : 'Data Visualization for Nonprofits'
-    authors :
-      - 'Alark Joshi'
-    cite    : 'Idaho Statewide NonProfit Conference, Boise, Idaho'
-    date    : 2012-09-01
-
-#############################
-books:
   - title   : 'Interactive Data Visualization for the Web: An Introduction to Designing with D3'
     authors :
       - 'Scott Murray'
@@ -238,3 +177,42 @@ books:
     links   :
       - link: 'http://www.amazon.com/Art-inspired-Techniques-Visualizing-Time-varying-VisualizingTime-varying/dp/363906769X/ref=sr_1_1?ie=UTF8&s=books&qid=1254347082&sr=8-1'
         icon: 'fa-amazon'
+
+  - title   : 'Do Defaults Matter? Evaluating the Effect of Defaults on User Preference for Multi-Class Scatterplots'
+    authors :
+      - 'Casey Haber'
+      - 'Lyndon Ong Yiu'
+      - 'Alark Joshi'
+      - 'Sophie Engle'
+    cite    : '<em>Proceedings of the 9th International Symposium on Visual Information Communication and Interaction (VINCI)</em>, Short Paper'
+    pages   :
+      - 91
+      - 95
+    date    : 2016-09-25
+    links   :
+      - link: 'http://dx.doi.org/10.1145/2968220.2968241'
+        icon: 'fa-link'
+
+  - title   : 'Interactive Exploration of Multidimensional YouTube Data Using the GPLOM Technique'
+    authors :
+      - 'Seimei Matsusaki'
+      - 'Xi Han'
+      - 'Alark Joshi'
+      - 'Sophie Engle'
+    cite    : '<em>Proceedings of the 9th International Symposium on Visual Information Communication and Interaction (VINCI)</em>, Poster'
+    pages   :
+      - 142
+      - 143
+    date    : 2016-09-24
+    links   :
+      - link: 'http://dx.doi.org/10.1145/2968220.2968233'
+        icon: 'fa-link'
+
+  - title   : 'Unboxing Cluster Heatmaps'
+    authors :
+      - 'Sophie Engle'
+      - 'Sean Whalen'
+      - 'Alark Joshi'
+      - 'Katherine S. Pollard'
+    cite    : '<em>Proceedings of the 6th Symposium on Biological Data Visualization (BioVis)</em> (To Appear)'
+    date    : 2016-10-23

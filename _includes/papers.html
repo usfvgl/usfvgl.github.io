@@ -6,7 +6,7 @@
 <td style="white-space: nowrap;">{% if year == current %}&nbsp;{% else %}{% assign current = year %}{{ year }}{% endif %}</td>
 <td width="100%">
 <strong>{{ paper.title }}</strong><br/>
-<small class="text-muted">by {% if paper.authors.size <= 2 %}{{ paper.authors | join: ' and ' }}{% else %}{% for author in paper.authors %}{% if forloop.last %}and {% endif %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}, in {{ paper.cite }}, {% if paper.pages %}pp {{ paper.pages | join: '&ndash;' }}, {% endif %}{{ month }} {{ year }}.{% if paper.links %}{% for link in paper.links %} &nbsp; <a href="{{ link.link }}"><i class="fa {{ link.icon }}"></i></a>{% endfor %}{% endif %}</small>
+<small class="text-muted">by {% if paper.authors.size <= 2 %}{{ paper.authors | join: ' and ' }}{% else %}{% for author in paper.authors %}{% if forloop.last %}and {% endif %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}, in {{ paper.cite }}, {% if paper.pages %}pp {{ paper.pages | join: '&ndash;' }}, {% endif %}{{ month }} {{ year }}.{% if paper.links %}{% for link in paper.links %} &nbsp; {% if link.link %}<a href="{{ link.link }}">{% endif %}<i class="fa {{ link.icon }}"></i>{% if link.link %}</a>{% endif %}{% endfor %}{% endif %}</small>
 </td>
 </tr>
 <!-- end row -->
