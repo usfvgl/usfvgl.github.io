@@ -199,14 +199,20 @@ publications:
       - 'Xi Han'
       - 'Alark Joshi'
       - 'Sophie Engle'
-    cite    : '<em>Proceedings of the 9th International Symposium on Visual Information Communication and Interaction (VINCI)</em>, Poster'
+    cite    : '<em>Proceedings of the 9th International Symposium on Visual Information Communication and Interaction (VINCI)</em>, Poster, <strong>Best Poster Award</strong>'
     pages   :
       - 142
       - 143
     date    : 2016-09-24
     links   :
+      - link : false
+        icon: 'fa-trophy'
       - link: 'http://dx.doi.org/10.1145/2968220.2968233'
         icon: 'fa-link'
+      - link: 'http://cs690.github.io/spring2015-datavis/visualization.html'
+        icon: 'fa-github'
+      - link: '{{ site.url }}/papers/2016-vinci-poster.pdf'
+        icon: 'fa-file-pdf-o'
 
   - title   : 'Unboxing Cluster Heatmaps'
     authors :
