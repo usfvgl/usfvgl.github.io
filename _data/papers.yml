@@ -211,7 +211,7 @@ publications:
         icon: 'fa-link'
       - link: 'http://cs690.github.io/spring2015-datavis/visualization.html'
         icon: 'fa-github'
-      - link: '{{ site.url }}/papers/2016-vinci-poster.pdf'
+      - link: 'http://vgl.cs.usfca.edu/papers/2016-vinci-poster.pdf'
         icon: 'fa-file-pdf-o'
 
   - title   : 'Unboxing Cluster Heatmaps'
