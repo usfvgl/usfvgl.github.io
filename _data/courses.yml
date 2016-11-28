@@ -147,6 +147,24 @@ normal:
           - 'TR 12:45pm&ndash;2:30pm'
           - 'LS G12'
 
+  # Spring 2017
+  - semester: 2017-01-23
+    courses :
+      - number : 'CS 360'
+        title  : 'Data Visualization'
+        website: false
+        details:
+          - 'Sophie Engle'
+          - 'MWF 2:15pm&ndash;3:20pm'
+          - 'LS 307'
+      - number : 'CS 486/686'
+        title  : 'Special Topics: Human Computer Interaction'
+        website: false
+        details:
+          - 'Beste Yuksel'
+          - 'TR 12:45pm&ndash;2:30pm'
+          - 'LS 307'
+
 #############################
 directed:
   # Spring 2014
