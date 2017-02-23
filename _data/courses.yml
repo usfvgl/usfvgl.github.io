@@ -152,7 +152,7 @@ normal:
     courses :
       - number : 'CS 360'
         title  : 'Data Visualization'
-        website: false
+        website: 'https://github.com/usf-cs360-2017/lectures/wiki'
         details:
           - 'Sophie Engle'
           - 'MWF 2:15pm&ndash;3:20pm'
