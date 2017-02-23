@@ -220,5 +220,12 @@ publications:
       - 'Sean Whalen'
       - 'Alark Joshi'
       - 'Katherine S. Pollard'
-    cite    : '<em>Proceedings of the 6th Symposium on Biological Data Visualization (BioVis)</em> (To Appear)'
-    date    : 2016-10-23
+    cite    : '<em>BMC Bioinformatics</em>, Volume 18 (Supplement 2):63 (Proceedings of the Symposium on Biological Data Visualization at VIS 2016)'
+    date    : 2017-02-15
+    links   :
+      - link: 'http://dx.doi.org/10.1186/s12859-016-1442-6'
+        icon: 'fa-link'
+      - link: 'https://github.com/usfvgl/unboxing-cluster-heatmaps'
+        icon: 'fa-github'
+      - link: 'http://rdcu.be/px5q'
+        icon: 'fa-file-pdf-o'
