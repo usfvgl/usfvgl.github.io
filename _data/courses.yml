@@ -167,7 +167,7 @@ normal:
 
   # Fall 2017 
    - semester: 2017-08-22
-    courses :
+     courses :
       - number : 'CS 384'
         title  : 'Research Seminar in CS'
         website: 'http://cs.usfca.edu/~apjoshi/cs384/'
@@ -175,6 +175,7 @@ normal:
           - 'Alark Joshi'
           - 'R 12:45pm&ndash;1:40pm'
           - 'HR 411'
+
 #############################
 directed:
   # Spring 2014
