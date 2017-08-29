@@ -21,7 +21,7 @@ faculty:
     last : 'Joshi'
     image: 'joshi.png'
     title:
-      - 'Assistant Professor'
+      - 'Associate Professor'
       - 'Department of Computer Science'
       - 'University of San Francisco'
     about: |
@@ -50,7 +50,7 @@ faculty:
     last : 'Engle'
     image: 'engle.png'
     title:
-      - 'Assistant Professor'
+      - 'Associate Professor'
       - 'Department of Computer Science'
       - 'University of San Francisco'
     about: |
