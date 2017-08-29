@@ -166,8 +166,8 @@ normal:
           - 'LS 307'
 
   # Fall 2017 
-   - semester: 2017-08-22
-     courses :
+  - semester: 2017-08-22
+    courses :
       - number : 'CS 384'
         title  : 'Research Seminar in CS'
         website: 'http://cs.usfca.edu/~apjoshi/cs384/'
