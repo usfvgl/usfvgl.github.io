@@ -165,6 +165,16 @@ normal:
           - 'TR 12:45pm&ndash;2:30pm'
           - 'LS 307'
 
+  # Fall 2017 
+   - semester: 2017-08-22
+    courses :
+      - number : 'CS 384'
+        title  : 'Research Seminar in CS'
+        website: 'http://cs.usfca.edu/~apjoshi/cs384/'
+        details:
+          - 'Alark Joshi'
+          - 'R 12:45pm&ndash;1:40pm'
+          - 'HR 411'
 #############################
 directed:
   # Spring 2014
