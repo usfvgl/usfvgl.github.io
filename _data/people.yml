@@ -113,6 +113,26 @@ students:
   #       link: 'mailto:ddjokic@usfca.edu'
   #       icon: 'fa-envelope'
 
+  - first: 'Lance'
+    last : 'Fernando'
+    image: 'fernando.jpg'
+    title:
+      - 'Undergraduate'
+      - 'Data Science Major'
+      - 'University of San Francisco'
+    about: |
+      Lance Fernando is an aspiring data scientist in his senior year 
+      majoring in Data Science with a concentration in computational analytics. 
+      His interests lie in the fields of data visualization, data mining and 
+      applied statistics. When Lance isn't messing with data he enjoys performing
+      music of all genres from dixieland jazz to musical theater, hence picking 
+      up a music minor. After graduation Lance intends to continue into a graduate 
+      program to further enhance his skills in analytics and data science.
+    links:
+      - name: 'ljfernando@usfca.edu'
+        link: 'mailto:ljfernando@usfca.edu'
+        icon: 'fa-envelope'
+
   - first: 'Helen'
     last : 'Chen'
     image: 'chen.jpg'
