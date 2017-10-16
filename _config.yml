@@ -5,6 +5,7 @@ author: University of San Francisco
 show_drafts: null
 future: true
 unpublished: false
+encoding: utf-8
 
 # Output
 permalink: date
