@@ -1,12 +1,6 @@
 name: Visualization and Graphics Lab
 author: University of San Francisco
 
-# Filter
-show_drafts: null
-future: true
-unpublished: false
 encoding: utf-8
-
-# Output
-permalink: date
+permalink: blog/:year_:month_:day_:slug.html
 timezone: America/Los_Angeles
