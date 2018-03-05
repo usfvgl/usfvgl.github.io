@@ -1,8 +1,18 @@
-{% include header.html %}
-{% include navbar.html %}
+<!DOCTYPE html>
 
-<!-- page content -->
-<div class="container">
-<h1 class="page-header">{{ page.title }}</h1>
-{{ content }}
-{% include footer.html %}
+<html lang="en" class="has-navbar-fixed-top">
+
+{% include head.html %}
+
+<body>
+  {% include navbar.html title=page.title %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+  {% include script.html %}
+
+</body>
+
+</html>

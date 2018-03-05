@@ -20,234 +20,47 @@ faculty:
   - first: 'Alark'
     last : 'Joshi'
     image: 'joshi.png'
-    title:
-      - 'Associate Professor'
-      - 'Department of Computer Science'
-      - 'University of San Francisco'
     about: |
-      Alark Joshi works on data visualization projects for improved
-      neurosurgical planning and treatment. His research focuses on
-      developing and evaluating the ability of novel visualization
-      techniques to communicate information for effective decision
-      making and discovery. His work has led to novel visualization
-      techniques in fields as diverse as computational fluid dynamics,
-      atmospheric physics, medical imaging and cell biology. Alark
-      received his PhD from the University of Maryland, was a
-      Postdoctoral Associate at Yale University, and most recently a
-      professor at Boise State University.
+      Alark Joshi works on data visualization projects for improved neurosurgical planning and treatment. His research focuses on developing and evaluating the ability of novel visualization techniques to communicate information for effective decision making and discovery. His work has led to novel visualization techniques in fields as diverse as computational fluid dynamics, atmospheric physics, medical imaging and cell biology. Alark received his PhD from the University of Maryland, was a Postdoctoral Associate at Yale University, and most recently a professor at Boise State University.
     links:
       - name: 'cs.usfca.edu/~apjoshi'
         link: 'http://cs.usfca.edu/~apjoshi'
-        icon: 'fa-globe'
+        icon: 'fas fa-globe'
       - name: '@alark'
         link: 'http://twitter.com/alark'
-        icon: 'fa-twitter'
+        icon: 'fab fa-twitter'
       - name: 'apjoshi@usfca.edu'
         link: 'mailto:apjoshi@usfca.edu'
-        icon: 'fa-envelope'
+        icon: 'fas fa-envelope'
 
   - first: 'Sophie'
     last : 'Engle'
     image: 'engle.png'
-    title:
-      - 'Associate Professor'
-      - 'Department of Computer Science'
-      - 'University of San Francisco'
     about: |
-      Sophie Engle works on a variety of projects including data
-      visualization, computer security, and computer science education.
-      Sophie received her PhD from the University of California, Davis
-      where she worked on vulnerability analysis, electronic voting, and
-      models of security policy and insider threat.
+      Sophie Engle works on a variety of projects including data visualization, computer security, and computer science education. Sophie received her PhD from the University of California, Davis where she worked on vulnerability analysis, electronic voting, and models of security policy and insider threat.
     links:
       - name: 'sjengle.cs.usfca.edu'
         link: 'http://sjengle.cs.usfca.edu/'
-        icon: 'fa-globe'
+        icon: 'fas fa-globe'
       - name: '@sjengle'
         link: 'http://twitter.com/sjengle'
-        icon: 'fa-twitter'
+        icon: 'fab fa-twitter'
       - name: 'sjengle@cs.usfca.edu'
         link: 'mailto:sjengle@cs.usfca.edu'
-        icon: 'fa-envelope'
+        icon: 'fas fa-envelope'
 
   - first: 'Scott'
     last : 'Murray'
     image: 'murray.jpg'
-    title:
-      - 'Assistant Professor'
-      - 'Department of Art + Architecture'
-      - 'University of San Francisco'
     about: |
-      Scott Murray is a code artist who writes software to create data
-      visualizations and other interactive phenomena. His work incorporates
-      elements of interaction design, systems design, and generative art.
-      Scott is a contributor to Processing, and author of "Interactive Data
-      Visualization for the Web: An Introduction to Designing with D3"
-      (O‘Reilly, 2013). Scott earned an AB in Environmental Theory from
-      Vassar College, and he received his MFA in Dynamic Media Design from
-      the Massachusetts College of Art and Design. He has exhibited
-      installations in San Francisco and Boston and taught workshops on
-      creative coding.
+      Scott Murray is a code artist who writes software to create data visualizations and other interactive phenomena. His work incorporates elements of interaction design, systems design, and generative art. Scott is a contributor to Processing, and author of "Interactive Data Visualization for the Web: An Introduction to Designing with D3" (O‘Reilly, 2013). Scott earned an AB in Environmental Theory from Vassar College, and he received his MFA in Dynamic Media Design from the Massachusetts College of Art and Design. He has exhibited installations in San Francisco and Boston and taught workshops on creative coding. He is now in the Learning Group at O'Reilly Media. Before that, he was an Assistant Professor of Design at USF.
     links:
       - name: 'alignedleft.com'
         link: 'http://alignedleft.com/'
-        icon: 'fa-globe'
+        icon: 'fas fa-globe'
       - name: '@alignedleft'
         link: 'https://twitter.com/alignedleft'
-        icon: 'fa-twitter'
+        icon: 'fab fa-twitter'
       - name: 'shmurray@usfca.edu'
         link: 'mailto:shmurray@usfca.edu'
-        icon: 'fa-envelope'
-
-#############################
-students:
-  # - first: 'Dejan'
-  #   last : 'Djokic'
-  #   image: 'djokic.jpg'
-  #   title:
-  #     - 'Undergraduate'
-  #     - 'Computer Science Major'
-  #     - 'University of San Francisco'
-  #   links:
-  #     - name: 'ddjokic@usfca.edu'
-  #       link: 'mailto:ddjokic@usfca.edu'
-  #       icon: 'fa-envelope'
-
-  - first: 'Lance'
-    last : 'Fernando'
-    image: 'fernando.jpg'
-    title:
-      - 'Undergraduate'
-      - 'Data Science Major'
-      - 'University of San Francisco'
-    about: |
-      Lance Fernando is an aspiring data scientist in his senior year 
-      majoring in Data Science with a concentration in computational analytics. 
-      His interests lie in the fields of data visualization, data mining and 
-      applied statistics. When Lance isn't messing with data he enjoys performing
-      music of all genres from dixieland jazz to musical theater, hence picking 
-      up a music minor. After graduation Lance intends to continue into a graduate 
-      program to further enhance his skills in analytics and data science.
-    links:
-      - name: 'ljfernando@usfca.edu'
-        link: 'mailto:ljfernando@usfca.edu'
-        icon: 'fa-envelope'
-
-  - first: 'Helen'
-    last : 'Chen'
-    image: 'chen.jpg'
-    title:
-      - 'Undergraduate'
-      - 'Computer Science Major'
-      - 'University of San Francisco'
-    about: |
-      Helen Chen is currently a second bachelor's student in Computer Science
-      at USF. She received her first bachelor's degree in Economics and has
-      spent six years working extensively with data in the retail sector as an
-      inventory planner. She also spent one year teaching middle school
-      students, where she developed a strong appreciation for data-driven
-      instruction. As a consumer of data through her seven years of work
-      experiences, she is particularly interested in seeing how data
-      visualization can help drive better decision making.
-    links:
-      - name: 'hhchen@usfca.edu'
-        link: 'mailto:hhchen@usfca.edu'
-        icon: 'fa-envelope'
-
-  # - first: 'Brian'
-  #   last : 'Bushree'
-  #   image: 'bushree.jpg'
-  #   title:
-  #     - 'Undergraduate'
-  #     - 'Computer Science Major'
-  #     - 'University of San Francisco'
-  #   about: |
-  #     Brian Bushree is an Undergraduate student studying Computer Science
-  #     at USF. He is an ambitious novice programmer with aspirations to become
-  #     a Website Architect. Brian is currently working to gain experience in
-  #     the field of web design/construction. He works for USF's School of
-  #     Management, helping to maintain, update, and fix the school's new
-  #     website.
-  #   links:
-  #     - name: 'bcbushree@usfca.edu'
-  #       link: 'mailto:bcbushree@usfca.edu'
-  #       icon: 'fa-envelope'
-
-  # - first: 'Rubin'
-  #   last : 'Trailor'
-  #   image: 'trailor.jpg'
-  #   title:
-  #     - 'Undergraduate'
-  #     - 'Computer Science Major'
-  #     - 'University of San Francisco'
-  #   about: |
-  #     Rubin Trailor is an undergraduate student pursuing a B.Sc. in Computer
-  #     Science and a minor in Mathematics. He is interested in using programming
-  #     as a medium to visualize information. The fields he is interested in are
-  #     game development, computer graphics, and data visualization. He currently
-  #     works as a TA for the course Introduction to Computer Science II.
-  #   links:
-  #     - name: 'rmtrailor@usfca.edu'
-  #       link: 'mailto:rmtrailor@usfca.edu'
-  #       icon: 'fa-envelope'
-
-  # - first: 'Laura'
-  #   last : 'Stevenson'
-  #   image: 'stevenson.jpg'
-  #   title:
-  #     - 'Undergraduate'
-  #     - 'Graphic Design Major, CS Minor'
-  #     - 'University of San Francisco'
-  #   links:
-  #     - name: 'ljstevenson@usfca.edu'
-  #       link: 'mailto:ljstevenson@usfca.edu'
-  #       icon: 'fa-envelope'
-  #   about: |
-  #     Laura Stevenson is an undergraduate student majoring in graphic design
-  #     and minoring in computer science. She is a member of the Computer Science
-  #     for High School tutoring program here on campus and aspires to work as a
-  #     web designer where she can use her background in programming and design.
-
-  - first: 'Casey'
-    last : 'Haber'
-    image: 'haber.jpg'
-    title:
-      - 'Undergraduate'
-      - 'Computer Science Major'
-      - 'University of San Francisco'
-    about: |
-      <p>Casey Haber was originally a Design major before switching to Computer
-      Science. He is highly interested in the interactions between everyday
-      people, nature and technology. Casey loves art, code and the process of
-      creative exploration. He intends to employ my studies to create
-      innovative methods for exploring creativity and education inside the
-      realm of technology.</p><p class="small text-muted">See "Do Defaults
-      Matter? Evaluating the Effect of Defaults on User Preference for
-      Multi-Class Scatterplots" in our <a href="/papers">Papers</a> section for an
-      example of Casey's research.</p>
-    links:
-      - name: 'cahaber@dons.usfca.edu'
-        link: 'mailto:cahaber@dons.usfca.edu'
-        icon: 'fa-envelope'
-
-  - first: 'Lyndon'
-    last : 'Ong Yiu'
-    image: 'ongyiu.jpg'
-    title:
-      - 'Undergraduate'
-      - 'Computer Science Major'
-      - 'University of San Francisco'
-    about: |
-      <p>Lyndon is currently majoring in Computer Science at USF. Over the last
-      few years, CS has become a passion of his due to a lifelong adoration
-      of puzzle-solving and spending embarassing amounts of time inside on his
-      computer. Lyndon is particularly interested in music software and data
-      visualization.</p><p class="small text-muted">See "Do Defaults
-      Matter? Evaluating the Effect of Defaults on User Preference for
-      Multi-Class Scatterplots" in our <a href="/papers">Papers</a> section for an
-      example of Lyndon's research.</p>
-    links:
-      - name: 'lcongyiu@dons.usfca.edu'
-        link: 'mailto:lcongyiu@dons.usfca.edu'
-        icon: 'fa-envelope'
-
+        icon: 'fas fa-envelope'

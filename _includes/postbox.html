@@ -1,0 +1,14 @@
+<div class="box">
+  <article class="media">
+    <div class="media-left has-text-centered">
+      <a href="{{ include.data.url }}" class="has-text-dark"><i class="fa-3x {{ include.data.icon }} fa-fw"></i></a>
+    </div>
+
+    <div class="media-content">
+      <h3 class="title"><a href="{{ include.data.url }}" class="is-primary has-text-weight-bold">{{ include.data.title }}</a></h3>
+      <h4 class="subtitle has-text-grey"><small><em>Posted {{ include.data.date | date: "%a %b %d %Y" }} by {{ include.data.author }}</em></small></h4>
+
+      {{ include.data.content }}
+    </div>
+  </article>
+</div>

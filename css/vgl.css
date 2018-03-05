@@ -1,0 +1,19 @@
+.footer a:not(.button):hover {
+  border-bottom-color: inherit;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+}
+
+.is-borderless,
+.is-borderless td {
+  border: none !important;
+}
+
+.papers u {
+  text-decoration: none;
+  color: #A8228E;
+}
+
+.content ul.fa-ul {
+  list-style-type: none !important;
+}

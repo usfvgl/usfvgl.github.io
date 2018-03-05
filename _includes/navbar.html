@@ -1,30 +1,38 @@
-<!-- navbar -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<!-- navigation -->
+<nav id="navbar" class="navbar is-primary is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle Navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-vgl-inverted has-text-weight-bold" href="{{ "/" | relative_url }}">
+        <img src="{{ "/images/favicon256.png" | relative_url }}" height="28" alt="USF">&nbsp;VGL
+      </a>
 
-      <a class="navbar-brand" href="{{ site.github.url }}/"><img src="{{ site.github.url }}/images/favicon256.png"/></a>
-    </div> <!-- /navbar-header -->
+      <div class="navbar-burger" data-target="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
 
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li{% if page.title == 'Home' %} class="active"{% endif %}><a href="{{ site.github.url }}/">VGL</a></li>
-        <li{% if page.title == 'People' %} class="active"{% endif %}><a href="{{ site.github.url }}/people/">People</a></li>
-        <li{% if page.title == 'Papers' %} class="active"{% endif %}><a href="{{ site.github.url }}/papers/">Papers</a></li>
-        <li{% if page.title == 'Blog' %} class="active"{% endif %}><a href="{{ site.github.url }}/blog/">Blog</a></li>
-        {% comment %}<li{% if page.title == 'Projects' %} class="active"{% endif %}><a href="{{ site.github.url }}/projects/">Projects</a></li>{% endcomment %}
-      </ul>
+    <div class="navbar-menu" id="navMenu">
+      <div class="navbar-start">
+        <a class="navbar-item {% if include.title == 'Home' %}is-active{% endif %}" href="{{ "/" | relative_url }}">
+          <i class="fas fa-fw fa-home"></i>&nbsp;Home
+        </a>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li{% if page.title == 'Courses' %} class="active"{% endif %}><a href="{{ site.github.url }}/courses/">Courses</a></li>
-        <li{% if page.title == 'Events' %} class="active"{% endif %}><a href="{{ site.github.url }}/events/">Events</a></li>
-      </ul>
-    </div> <!-- /navbar-collapse -->
-  </div> <!-- /container -->
-</nav> <!-- /navbar -->
+        <a class="navbar-item {% if include.title == 'Blog' %}is-active{% endif %}" href="{{ "/blog/" | relative_url }}">
+          <i class="fas fa-fw fa-comment"></i>&nbsp;Blog
+        </a>
+
+        <a class="navbar-item {% if include.title == 'Research' %}is-active{% endif %}" href="{{ "/research.html" | relative_url }}">
+          <i class="fas fa-fw fa-briefcase"></i>&nbsp;Research
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item {% if include.title == 'About' %}is-active{% endif %}" href="{{ "/about.html" | relative_url }}">
+          <i class="fas fa-fw fa-info-circle"></i>&nbsp;About
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
