@@ -1,0 +1,93 @@
+---
+# Bulma Customization
+---
+
+// 1. Import the initial variables
+@import "bulma/sass/utilities/initial-variables";
+@import "bulma/sass/utilities/functions";
+
+// 2. Set your own initial variables
+
+// Offical USF Colors and Fonts
+// https://myusf.usfca.edu/system/files/graphic-standards-manual.pdf
+$usf-green: #00543C;
+$usf-gold:  #FDBB30;
+$usf-grey:  #919194;
+
+$usf-green-on-black: #00684A;
+$usf-gold-on-black:  #FDBB30;
+$usf-grey-on-black:  #BBBDBF;
+
+$usf-yellow: #FDBB30;
+$usf-orange: #EB821E;
+$usf-terra:  #CD542C;
+$usf-saddle: #CCAF74;
+$usf-beige:  #DED5B4;
+$usf-plum:   #A8228E;
+$usf-olive:  #73973F;
+$usf-lime:   #AED136;
+$usf-teal:   #02B8A0;
+$usf-blue:   #00B3D8;
+
+$usf-serif: "Georgia", "Times New Roman", Times, serif;
+$usf-sans-serif: Arial, Helvetica, sans-serif;
+
+// VGL-Specific Fonts
+$vgl-normal-font: 'Source Sans Pro', sans-serif;
+$vgl-code-font: 'Source Code Pro', monospace;
+
+// 3. Set the derived variables
+
+$primary: $usf-green;
+$primary-invert: findColorInvert($primary);
+
+$link: $usf-blue;
+$link-invert: findColorInvert($link);
+$link-visited: $link;
+
+$link-hover: rgba($link, 0.6);
+$link-hover-border: $link;
+
+$link-focus: $link;
+$link-focus-border: $link;
+$link-active: $link;
+$link-active-border: $link;
+
+$code: $usf-plum;
+
+$info: $usf-teal;
+$info-invert: findColorInvert($info);
+
+$success: $usf-olive;
+$success-invert: findColorInvert($success);
+
+$warning: $usf-yellow;
+$warning-invert: findColorInvert($warning);
+
+$danger: $usf-terra;
+$danger-invert: findColorInvert($danger);
+
+$weight-light: 400;
+$weight-normal: 400;
+$weight-medium: 400;
+
+$weight-semibold: 900;
+$weight-bold: 900;
+
+$family-primary: $vgl-normal-font;
+$family-code: $vgl-code-font;
+
+// 4. Setup your Custom Colors
+$vgl-primary: $usf-green;
+$vgl-primary-invert: $usf-gold;
+
+// 5. Add new color variables to the color map.
+@import "bulma/sass/utilities/derived-variables.sass";
+$addColors: (
+  "vgl-primary":($vgl-primary, $vgl-primary-invert),
+  "vgl-inverted":($vgl-primary-invert, $vgl-primary)
+);
+$colors: map-merge($colors, $addColors);
+
+// 6. Import the rest of Bulma
+@import "bulma/bulma";

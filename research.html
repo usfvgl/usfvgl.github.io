@@ -1,0 +1,38 @@
+---
+layout: default
+title: Research
+---
+
+<!-- main -->
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <h1>Research</h1>
+
+      <p>The <strong>Visualization and Graphics Lab (VGL)</strong> provides many ways for students to participate in research, including paid research assistant positions, directed studies (CS 498/698), sponsored projects (CS 490/690), visualization-focused research seminars (CS 384/684), special topics courses in visualization (CS 486/686), and dedicated visualization-focused undergraduate and graduate courses (CS 360, MSAN 622).</p>
+
+      <h2>Publications</h2>
+
+      <p>The following are some of the relevant publications, short papers, and posters published by VGL members.</p>
+
+      <!-- beg table -->
+      <table class="table is-hoverable is-borderless papers">
+        <tbody>
+          {% assign papers = site.data.papers.publications | sort: 'date' | reverse %}{% assign current = 2000 %}{% for paper in papers %}{% assign year = paper.date | date: "%Y" %}{% assign month = paper.date | date: "%B" %}
+          <!-- beg row -->
+          <tr>
+            <td style="white-space: nowrap;">{% if year == current %}&nbsp;{% else %}{% assign current = year %}{{ year }}{% endif %}</td>
+            <td width="100%">
+              <strong>{{ paper.title }}</strong><br/>
+              <small class="has-text-grey">by {% if paper.authors.size <= 2 %}{{ paper.authors | join: ' and ' }}{% else %}{% for author in paper.authors %}{% if forloop.last %}and {% endif %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}, in {{ paper.cite }}, {% if paper.pages %}pp {{ paper.pages | join: '&ndash;' }}, {% endif %}{{ month }} {{ year }}.{% if paper.links %}{% for link in paper.links %} &nbsp;{% if link.link %}<a href="{{ link.link }}">{% endif %}<i class="{{ link.icon }}"></i>{% if link.link %}</a>{% endif %}{% endfor %}{% endif %}</small>
+            </td>
+          </tr>
+          <!-- end row -->
+          {% endfor %}
+        </tbody>
+      </table>
+      <!-- end table -->
+
+
+  </div>
+</section>

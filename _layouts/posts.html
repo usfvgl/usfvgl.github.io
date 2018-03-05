@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en" class="has-navbar-fixed-top">
+
+{% include head.html %}
+
+<body>
+  {% include navbar.html title="Blog" %}
+
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        {% include postbox.html data=page %}
+      </div>
+    </div>
+  </section>
+
+  {% include footer.html %}
+
+  {% include script.html %}
+
+</body>
+
+</html>

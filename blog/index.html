@@ -1,0 +1,38 @@
+---
+layout: default
+title: Blog
+---
+
+<!-- main -->
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <h1>VGL Blog</h1>
+
+      <p>Below you can find various short and long posts regarding lab activities.</p>
+
+      {% for post in paginator.posts %}
+      {% include postbox.html data=post %}
+      {% endfor %}
+
+      {% if paginator.total_pages > 1 %}
+      <div class="buttons has-addons is-centered">
+        <a {% if paginator.previous_page %}href="{{ paginator.previous_page_path | relative_url }}"{% endif %} class="button is-link is-outlined" {% unless paginator.previous_page %}disabled{% endunless %}>
+          <i class="fas fa-angle-double-left"></i>&nbsp;Prev
+        </a>
+
+        {% for page in (1..paginator.total_pages) %}
+        <a {% if page != paginator.page %}href="{% if page == 1 %}{{ paginator.previous_page_path | relative_url }}{% else %}{{ site.paginate_path | replace: ':num', page | relative_url }}{% endif %}"{% endif %} class="button is-link {% if page == paginator.page %}is-selected{% else %}is-outlined{% endif %}">
+          {{ page }}
+        </a>
+        {% endfor %}
+
+        <a {% if paginator.next_page %}href="{{ paginator.next_page_path | relative_url }}"{% endif %} class="button is-link is-outlined" {% unless paginator.next_page %}disabled{% endunless %}>
+          Next&nbsp;<i class="fas fa-angle-double-right"></i>
+        </a>
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+</section>

@@ -1,0 +1,83 @@
+---
+layout: default
+title: Home
+---
+
+<!-- header -->
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1">
+        <span class="has-text-vgl-primary">VGL</span>
+        <span class="has-text-vgl-inverted">@</span>
+        <span class="has-text-vgl-primary">USF</span>
+      </h1>
+
+      <h2 class="subtitle is-3">
+        Visualization and Graphics Lab
+      </h2>
+
+      <p>
+        We are a group of faculty and students that discuss and collaborate on research in the data visualization and graphics fields. We also teach several classes, sponsor projects and directed studies, and host speakers.
+
+        <br/>
+        <br/>
+
+        <a class="button is-medium is-primary" href="{{ "/about.html" | relative_url }}">
+          Learn More&nbsp;
+          <i class="fas fa-angle-double-right"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- main -->
+<section class="section">
+  <div class="container">
+    <div class="content">
+
+    <h2>Recent Papers</h2>
+
+    {% assign papers = site.data.papers.publications | sort: 'date' | reverse %}
+    <ul class="fa-ul papers">
+    {% for paper in papers limit:3 %}
+      <li>
+        <span class="fa-li"><i class="fas fa-file-alt"></i></span>
+        {% if paper.authors.size <= 2 %}{{ paper.authors | join: ' and ' }}{% else %}{% for author in paper.authors %}{% if forloop.last %}and {% endif %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}, <q><strong>{{ paper.title }}</strong></q>, in {{ paper.cite }}, {% if paper.pages %}pp {{ paper.pages | join: '&ndash;' }}, {% endif %}{{ paper.date | date: "%B" }} {{ paper.date | date: "%Y" }}.{% if paper.links %}{% for link in paper.links %} &nbsp;{% if link.link %}<a href="{{ link.link }}">{% endif %}<i class="{{ link.icon }}"></i>{% if link.link %}</a>{% endif %}{% endfor %}{% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+
+    <p>
+      <a href="{{ "research.html" | relative_url }}" class="button is-light">
+        More Research&nbsp;
+        <i class="fas fa-angle-double-right"></i>
+      </a>
+    </p>
+
+    <h1>Latest Posts</h1>
+
+    <ul class="fa-ul">
+    {% for post in site.posts limit:5 %}
+    <li>
+      <p>
+        <span class="fa-li"><i class="{{ post.icon }}"></i></span>
+        {{ post.author }}, <strong><a href="{{ post.url | relative_url }}">{{ post.title }}</a></strong>, <em>posted on</em> {{ post.date | date: "%a %b %d %Y" }}. <a href="{{ post.url | relative_url }}">Read <i class="fas fa-angle-double-right"></i></a>
+      </p>
+    </li>
+    {% endfor %}
+    </ul>
+
+    <br/>
+
+    <p>
+      <a href="{{ "blog.html" | relative_url }}" class="button is-light">
+        More Posts&nbsp;
+        <i class="fas fa-angle-double-right"></i>
+      </a>
+    </p>
+
+    </div>
+  </div>
+</section>

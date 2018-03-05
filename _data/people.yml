@@ -1,0 +1,66 @@
+---
+# All icons are Font Awesome icons. See a list at:
+# https://fortawesome.github.io/Font-Awesome/icons/
+
+# Each person should have the following items:
+# first: [first name]
+# last : [fast name]
+# image: [filename in /images folder (optional)]
+# title: [list of title lines (optional)]
+# about: [bio paragraph (optional)]
+
+# Each person can have a list of links as follows:
+# links:
+#   - name: [link description]
+#     link: [link to website]
+#     icon: [fontawesome icon]
+
+#############################
+faculty:
+  - first: 'Alark'
+    last : 'Joshi'
+    image: 'joshi.png'
+    about: |
+      Alark Joshi works on data visualization projects for improved neurosurgical planning and treatment. His research focuses on developing and evaluating the ability of novel visualization techniques to communicate information for effective decision making and discovery. His work has led to novel visualization techniques in fields as diverse as computational fluid dynamics, atmospheric physics, medical imaging and cell biology. Alark received his PhD from the University of Maryland, was a Postdoctoral Associate at Yale University, and most recently a professor at Boise State University.
+    links:
+      - name: 'cs.usfca.edu/~apjoshi'
+        link: 'http://cs.usfca.edu/~apjoshi'
+        icon: 'fas fa-globe'
+      - name: '@alark'
+        link: 'http://twitter.com/alark'
+        icon: 'fab fa-twitter'
+      - name: 'apjoshi@usfca.edu'
+        link: 'mailto:apjoshi@usfca.edu'
+        icon: 'fas fa-envelope'
+
+  - first: 'Sophie'
+    last : 'Engle'
+    image: 'engle.png'
+    about: |
+      Sophie Engle works on a variety of projects including data visualization, computer security, and computer science education. Sophie received her PhD from the University of California, Davis where she worked on vulnerability analysis, electronic voting, and models of security policy and insider threat.
+    links:
+      - name: 'sjengle.cs.usfca.edu'
+        link: 'http://sjengle.cs.usfca.edu/'
+        icon: 'fas fa-globe'
+      - name: '@sjengle'
+        link: 'http://twitter.com/sjengle'
+        icon: 'fab fa-twitter'
+      - name: 'sjengle@cs.usfca.edu'
+        link: 'mailto:sjengle@cs.usfca.edu'
+        icon: 'fas fa-envelope'
+
+  - first: 'Scott'
+    last : 'Murray'
+    image: 'murray.jpg'
+    about: |
+      Scott Murray is a code artist who writes software to create data visualizations and other interactive phenomena. His work incorporates elements of interaction design, systems design, and generative art. Scott is a contributor to Processing, and author of "Interactive Data Visualization for the Web: An Introduction to Designing with D3" (O‘Reilly, 2013). Scott earned an AB in Environmental Theory from Vassar College, and he received his MFA in Dynamic Media Design from the Massachusetts College of Art and Design. He has exhibited installations in San Francisco and Boston and taught workshops on creative coding. He is now in the Learning Group at O'Reilly Media. Before that, he was an Assistant Professor of Design at USF.
+    links:
+      - name: 'alignedleft.com'
+        link: 'http://alignedleft.com/'
+        icon: 'fas fa-globe'
+      - name: '@alignedleft'
+        link: 'https://twitter.com/alignedleft'
+        icon: 'fab fa-twitter'
+      - name: 'shmurray@usfca.edu'
+        link: 'mailto:shmurray@usfca.edu'
+        icon: 'fas fa-envelope'

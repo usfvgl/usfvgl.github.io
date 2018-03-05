@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html lang="en" class="has-navbar-fixed-top">
+
+{% include head.html %}
+
+<body>
+  {% include navbar.html title=page.title %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+  {% include script.html %}
+
+</body>
+
+</html>

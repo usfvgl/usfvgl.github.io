@@ -1,0 +1,38 @@
+<!-- navigation -->
+<nav id="navbar" class="navbar is-primary is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-vgl-inverted has-text-weight-bold" href="{{ "/" | relative_url }}">
+        <img src="{{ "/images/favicon256.png" | relative_url }}" height="28" alt="USF">&nbsp;VGL
+      </a>
+
+      <div class="navbar-burger" data-target="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="navbar-menu" id="navMenu">
+      <div class="navbar-start">
+        <a class="navbar-item {% if include.title == 'Home' %}is-active{% endif %}" href="{{ "/" | relative_url }}">
+          <i class="fas fa-fw fa-home"></i>&nbsp;Home
+        </a>
+
+        <a class="navbar-item {% if include.title == 'Blog' %}is-active{% endif %}" href="{{ "/blog/" | relative_url }}">
+          <i class="fas fa-fw fa-comment"></i>&nbsp;Blog
+        </a>
+
+        <a class="navbar-item {% if include.title == 'Research' %}is-active{% endif %}" href="{{ "/research.html" | relative_url }}">
+          <i class="fas fa-fw fa-briefcase"></i>&nbsp;Research
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item {% if include.title == 'About' %}is-active{% endif %}" href="{{ "/about.html" | relative_url }}">
+          <i class="fas fa-fw fa-info-circle"></i>&nbsp;About
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
