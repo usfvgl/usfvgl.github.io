@@ -21,7 +21,7 @@ title: About
       <article class="media is-borderless">
         <div class="media-left">
           <p class="image is-96x96">
-            <img src="images/{{ person.image }}">
+            <img src="{{ "images/" | append: person.image | relative_url }}">
           </p>
         </div>
         <div class="media-content">
