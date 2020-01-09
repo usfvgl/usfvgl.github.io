@@ -235,7 +235,7 @@ publications:
     authors :
       - '<u>Helen Chen</u>'
       - '<u>Sophie Engle</u>'
-      - '<u>Alark Josh</u>'
+      - '<u>Alark Joshi</u>'
       - 'Eric D. Ragan'
       - 'Beste F. Yuksel'
       - 'Lane Harrison'
@@ -273,7 +273,7 @@ publications:
       - 'Josh Anghel'
       - 'Kristi Potter'
       - '<u>Alark Joshi</u>'
-    cite    : '<em>Electronic Imaging, 2020(1), 678-1.'
+    cite    : '<em>Electronic Imaging, 2020(1), 678-687.'
     date    : 2020-01-30
     links   :
       - link: 'http://vgl.cs.usfca.edu/assets/Foveated_Visualization___VDA_2020.pdf'
