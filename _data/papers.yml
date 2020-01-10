@@ -261,7 +261,7 @@ publications:
       - '<u>Stephen Hsu</u>'
       - '<u>David Kes</u>'
       - '<u>Alark Joshi</u>'
-    cite    : '<em>Electronic Imaging, 2019(1), 678-1'
+    cite    : '<em>Electronic Imaging, 2019(1), 678-1</em>'
     date    : 2019-01-26
     links   :
       - link: 'http://vgl.cs.usfca.edu/assets/VDA2018.pdf'
@@ -275,7 +275,7 @@ publications:
       - 'Josh Anghel'
       - 'Kristi Potter'
       - '<u>Alark Joshi</u>'
-    cite    : '<em>Electronic Imaging, 2020(1), 678-687'
+    cite    : '<em>Electronic Imaging, 2020(1), 678-687</em>'
     date    : 2020-01-30
     links   :
       - link: 'http://vgl.cs.usfca.edu/assets/Foveated_Visualization___VDA_2020.pdf'
