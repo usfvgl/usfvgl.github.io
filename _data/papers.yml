@@ -258,18 +258,20 @@ publications:
 
   - title   : 'Visualizing Tweets from Confirmed Fake Russian Accounts'
     authors :
-      - 'Stephen Hsu'
-      - 'David Kes'
+      - '<u>Stephen Hsu</u>'
+      - '<u>David Kes</u>'
       - '<u>Alark Joshi</u>'
     cite    : '<em>Electronic Imaging, 2019(1), 678-1'
     date    : 2019-01-26
     links   :
       - link: 'http://vgl.cs.usfca.edu/assets/VDA2018.pdf'
+        icon: 'fas fa-file-pdf'
+      - link: 'https://www.ingentaconnect.com/content/ist/ei/2019/00002019/00000001/art00004'
         icon: 'fas fa-link'
 
   - title   : 'A Gaze-Contingent System for Foveated Multiresolution Visualization of Vector and Volumetric Data'
     authors :
-      - 'Thanawut Ananpiriyakul'
+      - '<u>Thanawut Ananpiriyakul</u>'
       - 'Josh Anghel'
       - 'Kristi Potter'
       - '<u>Alark Joshi</u>'
@@ -277,7 +279,7 @@ publications:
     date    : 2020-01-30
     links   :
       - link: 'http://vgl.cs.usfca.edu/assets/Foveated_Visualization___VDA_2020.pdf'
-        icon: 'fas fa-link'
+        icon: 'fas fa-file-pdf'
 
 
   
