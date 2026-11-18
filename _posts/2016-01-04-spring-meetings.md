@@ -3,6 +3,7 @@ layout: posts
 title: Spring 2016 Lab Meetings
 author: Sophie Engle
 icon: fas fa-calendar-alt
+archived: true
 ---
 
 Happy New Year!

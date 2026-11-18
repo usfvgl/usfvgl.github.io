@@ -1,12 +1,19 @@
 <div class="box">
   <article class="media">
     <div class="media-left has-text-centered">
-      <a href="{{ include.data.url }}" class="has-text-dark"><i class="fa-3x {{ include.data.icon }} fa-fw"></i></a>
+      <a href="{{ include.data.url | relative_url }}" class="has-text-dark" aria-hidden="true" tabindex="-1"><i class="fa-3x {{ include.data.icon }} fa-fw"></i></a>
     </div>
 
     <div class="media-content">
-      <h3 class="title"><a href="{{ include.data.url }}" class="is-primary">{{ include.data.title }}</a></h3>
+      <h3 class="title"><a href="{{ include.data.url | relative_url }}" class="is-primary">{{ include.data.title }}</a>{% if include.data.archived %} <span class="tag is-light is-medium">Archived</span>{% endif %}</h3>
       <h4 class="subtitle has-text-grey"><small><em>Posted {{ include.data.date | date: "%a %b %d %Y" }} by {{ include.data.author }}</em></small></h4>
+
+      {% if include.data.archived %}
+      <div class="notification is-light archived-note">
+        <i class="fas fa-archive" aria-hidden="true"></i>&nbsp;
+        <strong>Archived post.</strong> This announcement is kept for historical reference; the opportunity, event, or schedule it describes is no longer current.
+      </div>
+      {% endif %}
 
       {{ include.data.content }}
     </div>

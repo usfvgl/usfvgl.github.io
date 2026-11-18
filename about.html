@@ -21,7 +21,7 @@ title: About
       <article class="media is-borderless">
         <div class="media-left">
           <p class="image is-96x96">
-            <img src="{{ "images/" | append: person.image | relative_url }}">
+            <img src="{{ "/images/" | append: person.image | relative_url }}" alt="Photo of {{ person.first }} {{ person.last }}">
           </p>
         </div>
         <div class="media-content">
@@ -29,18 +29,19 @@ title: About
             <p>
               <strong>{{ person.first }} {{ person.last }}</strong>
               {% for link in person.links %}
-              <a href="{{ link.link }}" alt="{{ link.name }}"><i class="{{ link.icon }}"></i></a>
+              <a href="{{ link.link }}" title="{{ link.name }}" aria-label="{{ link.name }}"><i class="{{ link.icon }}" aria-hidden="true"></i></a>
               {% endfor %}
               <br/>
               {{ person.about }}
             </p>
           </div>
+        </div>
       </article>
       {% endfor %}
 
       <br/>
 
-      <p>We also frequently work with other USF faculty and students, as well as several external collaborators. See our <a href="{{ research.html | relative_url }}">Research</a> page to see who we have published with.</p>
+      <p>We also frequently work with other USF faculty and students, as well as several external collaborators. See our <a href="{{ "/research.html" | relative_url }}">Research</a> page to see who we have published with.</p>
 
       <h2>Past Events</h2>
 
@@ -53,12 +54,12 @@ title: About
       <p>This half-day interactive workshop was held in conjunction with IEEE VIS in 2016 and 2017.</p>
 
       <p>
-        <a href="http://vgl.cs.usfca.edu/pdvw/2016/" class="button is-small is-light">
+        <a href="https://vgl.cs.usfca.edu/pdvw/2016/" class="button is-small is-light">
           PDVW 2016&nbsp;
           <i class="fas fa-angle-double-right"></i>
         </a>
         &nbsp;
-        <a href="http://vgl.cs.usfca.edu/pdvw/2017/" class="button is-small is-light">
+        <a href="https://vgl.cs.usfca.edu/pdvw/2017/" class="button is-small is-light">
           PDVW 2017&nbsp;
           <i class="fas fa-angle-double-right"></i>
         </a>
@@ -68,10 +69,10 @@ title: About
 
       <p>This speaker series was established in Spring 2014 as an interdisciplinary effort by professors Scott Murray in Design and Alark Joshi and Sophie Engle in Computer Science. Events in this series were open to all faculty, staff, students, alumni of USF, and the general public.</p>
 
-      <p>This speaker series was generously supported by the <a href="https://www.usfca.edu/arts-sciences/about">Office of the Dean in the College of Arts and Sciences</a> at the University of San Francisco, and advertised to the public via the <a href="http://www.meetup.com/visualizemydata/">Data Visualization Group in the Bay Area</a> meetup.</p>
+      <p>This speaker series was generously supported by the <a href="https://www.usfca.edu/arts-sciences/about">Office of the Dean in the College of Arts and Sciences</a> at the University of San Francisco, and advertised to the public via the <a href="https://www.meetup.com/visualizemydata/">Data Visualization Group in the Bay Area</a> meetup.</p>
 
       <p>
-        <a href="http://vgl.cs.usfca.edu/dvss" class="button is-small is-light">
+        <a href="https://vgl.cs.usfca.edu/dvss" class="button is-small is-light">
           Learn More&nbsp;
           <i class="fas fa-angle-double-right"></i>
         </a>
@@ -90,5 +91,6 @@ title: About
         </a>
       </p>
 
+    </div>
   </div>
 </section>

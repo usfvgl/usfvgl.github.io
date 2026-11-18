@@ -3,6 +3,7 @@ layout: posts
 title: CS 360 Teaching Assistant
 author: Sophie Engle
 icon: fas fa-info-circle
+archived: true
 ---
 
 I am looking for a TA for CS 360 Data Visualization next semester. Details are below.

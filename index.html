@@ -44,7 +44,7 @@ title: Home
     {% for paper in papers limit:3 %}
       <li>
         <span class="fa-li"><i class="fas fa-file-alt"></i></span>
-        {% if paper.authors.size <= 2 %}{{ paper.authors | join: ' and ' }}{% else %}{% for author in paper.authors %}{% if forloop.last %}and {% endif %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}, <q><strong>{{ paper.title }}</strong></q>, in {{ paper.cite }}, {% if paper.pages %}pp {{ paper.pages | join: '&ndash;' }}, {% endif %}{{ paper.date | date: "%B" }} {{ paper.date | date: "%Y" }}.{% if paper.links %}{% for link in paper.links %} &nbsp;{% if link.link %}<a href="{{ link.link }}">{% endif %}<i class="{{ link.icon }}"></i>{% if link.link %}</a>{% endif %}{% endfor %}{% endif %}
+        {% include citation.html paper=paper show_title=true %}
       </li>
     {% endfor %}
     </ul>
@@ -63,7 +63,7 @@ title: Home
     <li>
       <p>
         <span class="fa-li"><i class="{{ post.icon }}"></i></span>
-        {{ post.author }}, <strong><a href="{{ post.url | relative_url }}">{{ post.title }}</a></strong>, <em>posted on</em> {{ post.date | date: "%a %b %d %Y" }}. <a href="{{ post.url | relative_url }}">Read <i class="fas fa-angle-double-right"></i></a>
+        {{ post.author }}, <strong><a href="{{ post.url | relative_url }}">{{ post.title }}</a></strong>{% if post.archived %} <span class="tag is-light">Archived</span>{% endif %}, <em>posted on</em> {{ post.date | date: "%a %b %d %Y" }}. <a href="{{ post.url | relative_url }}">Read <i class="fas fa-angle-double-right"></i></a>
       </p>
     </li>
     {% endfor %}

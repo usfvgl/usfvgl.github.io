@@ -15,169 +15,715 @@
 #     - 0
 #     - 0
 #   date    : 0000-00-00
+#   nomonth : true  # optional; hides the month when only the year is known
+#   etal    : true  # optional; appends "et al." after the author list
 #   links   :
 #     - link: 'link'
 #       icon: 'fas fa-link'
+#       name: 'Publisher page'  # used as the link's tooltip / screen-reader label
 #     - link: 'link'
 #       icon: 'fas fa-file-powerpoint'
 #     - link: 'link'
 #       icon: 'fas fa-file-pdf'
 
 #############################
-publications:
-  - title   : 'Reflecting on Visualization for Cyber Security'
-    authors :
-      - 'Carrie Gates'
-      - '<u>Sophie Engle</u>'
-    cite    : '<em>Proceedings of the 2013 IEEE International Conference on Intelligence and Security Informatics (ISI)</em>, from the Evaluating Security Visualizations Workshop, Seattle, Washington'
-    pages   :
-      - 275
-      - 277
-    date    : 2013-06-01
-    links   :
-      - link: 'http://dx.doi.org/10.1109/ISI.2013.6578842'
-        icon: 'fas fa-link'
-      - link: 'https://drive.google.com/file/d/0BxYofk0iB_upRm9XdHV5cU1QaVE/edit?usp=sharing'
-        icon: 'fas fa-file-powerpoint'
 
-  - title   : 'Visualizing Distributed Memory Computations with Hive Plots'
+publications:
+  - title   : 'Challenges in Synchronous &amp; Remote Collaboration Around Visualization'
+    authors :
+      - 'Matthew Brehmer'
+      - 'Maxime Cordeil'
+      - 'Christophe Hurter'
+      - 'Takayuki Itoh'
+      - 'Wolfgang Büschel'
+      - 'Mahmood Jasim'
+      - 'Arnaud Prouzeau'
+      - 'David Saffo'
+      - 'Lyn Bartram'
+      - 'Sheelagh Carpendale'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)</em>'
+    pages   :
+      - 1
+      - 17
+    date    : 2026-04-01
+    nomonth : true
+    etal    : true
+    links   :
+      - link: 'https://dl.acm.org/doi/full/10.1145/3772318.3791117'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+
+  - title   : 'Scientific Visualization Literacy: Assessment, Challenges, and Opportunities'
+    authors :
+      - 'Chaoli Wang'
+      - 'Patrick Phuoc Do'
+      - 'Robert S. Laramee'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Eurographics Conference on Visualization (EuroVis)</em>, Education Papers'
+    date    : 2026-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2026-SCIVIS-LIT-EuroVis.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Postdoc: How to Navigate Your Career After Grad School'
+    authors :
+      - 'Victoria Hallinan'
+      - '<u>Alark Joshi</u>'
+    cite    : 'Johns Hopkins University Press'
+    date    : 2026-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.press.jhu.edu/books/title/54226/postdoc'
+        icon: 'fas fa-book'
+        name: 'Book'
+
+  - title   : 'Mastery Learning Improves Performance on Complex Tasks on PCP Literacy Test'
+    authors :
+      - 'Chandana Srinivas'
+      - 'Elif E. Firat'
+      - 'Robert S. Laramee'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>IEEE Computer Graphics and Applications</em>, Volume 46, Issue 3'
+    pages   :
+      - 118
+      - 125
+    date    : 2026-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2026-Mastery-Learning-IEEE-CGA.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Evaluating Student Learning Gains Through a Data-Driven Storytelling Worksheet Intervention'
+    authors :
+      - 'Chandana Srinivas'
+      - 'Bhavi Kenia'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>44th Computer Graphics &amp; Visual Computing Conference (CGVC)</em>, Eurographics'
+    pages   :
+      - 1
+      - 6
+    date    : 2026-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2026-DDSW-Intervention-CGVC.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Computer Science Meets Public Health: Developing an AI Coach for Health and Well-Being'
+    authors :
+      - 'Alina Scantlebury'
+      - 'Jade Custer'
+      - 'Taiyo Williamson'
+      - 'Kelly L''Engle'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Journal of Interdisciplinary Perspectives and Scholarship</em>, Volume 10, Issue 1'
+    date    : 2026-01-01
+    nomonth : true
+    links   :
+      - link: 'https://repository.usfca.edu/cgi/viewcontent.cgi?article=1127&context=jips'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Believing is Seeing: Cognitive Risks of High Confidence AI Predictions in Human Decision Making'
+    authors :
+      - 'Aarav Gupta'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Proceedings of the 17th International EuroVis Workshop on Visual Analytics (EuroVA)</em>, <strong>Best Paper Award</strong>'
+    date    : 2026-01-01
+    nomonth : true
+    links   :
+      - link: false
+        icon: 'fas fa-trophy'
+        name: 'Best Paper Award'
+      - link: 'https://diglib.eg.org/items/0b97bcf2-2069-452f-8e84-496ed8a02750'
+        icon: 'fas fa-file-pdf'
+        name: 'Eurographics Digital Library'
+
+  - title   : 'WIP: Applying Self-Regulated Learning Principles in an Undergraduate Computer Science Seminar'
+    authors :
+      - '<u>Sophie Engle</u>'
+      - 'Kelsey Urgo'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Proceedings of the 2025 IEEE Frontiers in Education Conference (FIE)</em>'
+    date    : 2025-11-01
+    links   :
+      - link: 'https://doi.org/10.1109/FIE63693.2025.11328695'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2025_FIE-Peer-Led.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Examining a PCP Intervention through the Anderson and Krathwohl Taxonomy Lens'
+    authors :
+      - 'Chandana Srinivas'
+      - 'Bhavi Kenia'
+      - 'Kelsey Urgo'
+      - 'Elif E. Firat'
+      - 'Robert S. Laramee'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>IEEE VIS Workshop on Visualization Education, Literacy, and Activities (EduVis)</em>'
+    date    : 2025-10-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2025_EduVis-Knowledge-Dimensions.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Evaluating the Impact of a Constructivist Approach to Treemap Literacy'
+    authors :
+      - 'Elif E. Firat'
+      - 'Chandana Srinivas'
+      - 'Colm Lang'
+      - 'Bhumika Srinivas'
+      - 'Robert S. Laramee'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>IEEE Computer Graphics and Applications</em>, Volume 45, Issue 1'
+    pages   :
+      - 139
+      - 147
+    date    : 2025-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2025_CGA-Treemaps.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'An Inductive Approach for Identification of Barriers to PCP Literacy'
+    authors :
+      - 'Chandana Srinivas'
+      - 'Elif E. Firat'
+      - 'Robert S. Laramee'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>IEEE VIS Workshop on Visualization Education, Literacy, and Activities (EduVis)</em>'
+    date    : 2024-10-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2024_EduVis_PCP_Barriers.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Evaluating the Recommendations of LLMs to Teach a Visualization Technique using Bloom''s Taxonomy'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Chandana Srinivas'
+      - 'Elif E. Firat'
+      - 'Robert S. Laramee'
+    cite    : '<em>Visualization and Data Analysis Conference (VDA)</em>'
+    date    : 2024-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2024_VDA_LLM_Evaluation_PCP.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Assessing the Impact of Specifications Grading on a Data Visualization Course'
+    authors :
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>IEEE Frontiers in Education Conference (FIE)</em>'
+    date    : 2023-10-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2023-Specifications_Grading-IEEE-FIE.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Exploring Computer Science Identity Development Among Undergraduate Computer Science Majors'
+    authors :
+      - 'Xornam Apedoe'
+      - 'Wen Li'
+      - 'Sami Rollins'
+      - '<u>Sophie Engle</u>'
+      - '<u>Alark Joshi</u>'
+      - 'Matthew Malensek'
+      - 'Chris Brooks'
+    cite    : '<em>Proceedings of the 2023 International Conference of the Learning Sciences (ISLS)</em>, Poster'
+    date    : 2023-06-01
+
+  - title   : 'A Constructivism-based Approach to Treemap Literacy in the Classroom'
+    authors :
+      - 'Elif E. Firat'
+      - 'Colm Lang'
+      - 'Bhumika Srinivas'
+      - 'Ilena Peng'
+      - 'Robert S. Laramee'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Computer Graphics Forum (Eurographics Education Papers)</em>, Volume 42, Issue 2'
+    date    : 2023-05-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2023-Constructivism-Treemaps-Eurographics-Education.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Acknowledging Inequities in Tech through a Community-Engaged Learning Course'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - '<u>Sophie Engle</u>'
+      - 'Matthew Malensek'
+      - 'Chris Brooks'
+      - 'Xornam Apedoe'
+      - 'Star Moore'
+    cite    : '<em>Proceedings of the 54th ACM Technical Symposium on Computer Science Education (SIGCSE)</em>, Poster'
+    date    : 2023-03-01
+    links   :
+      - link: 'https://dl.acm.org/doi/abs/10.1145/3545947.3576234'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2023-CEL_SIGCSE.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Lessons Learned from Quantitatively Exploring Visualization Rubric Utilization for Peer Feedback'
+    authors :
+      - 'Daniel Barajas'
+      - 'Xornam Apedoe'
+      - 'David Guy Brizan'
+      - '<u>Alark Joshi</u>'
+      - '<u>Sophie Engle</u>'
+    cite    : '<em>IEEE Computer Graphics and Applications</em>, Volume 43, Issue 1'
+    pages   :
+      - 10
+      - 21
+    date    : 2023-02-01
+    links   :
+      - link: 'https://doi.org/10.1109/MCG.2022.3149683'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://sjengle.cs.usfca.edu/pdf/2022%20Visualization%20Rubric%20Utilization%20(Preprint).pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'Preprint'
+
+  - title   : 'Speech-based Data Exploration for Diabetes Management among Older Adults'
+    authors :
+      - 'Vedangi Bhavsar'
+      - 'Utkarsha Nehe'
+      - 'Aditya Mandke'
+      - 'Srushti Sardeshmukh'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>NLVIZ Workshop at IEEE VIS</em>'
+    date    : 2022-10-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2022-Diabetes-Vis.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Evaluating Bloom''s Taxonomy-based Learning Modules for Parallel Coordinates Literacy'
+    authors :
+      - 'Ilena Peng'
+      - 'Elif E. Firat'
+      - 'Robert S. Laramee'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Computer Graphics Forum (Eurographics Education Papers)</em>, Volume 41, Issue 2'
+    date    : 2022-05-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2022-Parallel-Coordinates-Eurographics-Education.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Using a Virtual Workplace Environment to Reduce Implicit Gender Bias'
+    authors :
+      - 'Kevin Beltran'
+      - 'Cody Rowland'
+      - 'Nicki Hashemi'
+      - 'Anh Nguyen'
+      - 'Lane Harrison'
+      - '<u>Sophie Engle</u>'
+      - 'Beste F. Yuksel'
+    cite    : '<em>International Journal of Human-Computer Interaction</em>'
+    date    : 2022-04-01
+    links   :
+      - link: 'https://www.tandfonline.com/eprint/J4JHETJACZV4SGRZZQKY/full?target=10.1080/10447318.2022.2041902'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+
+  - title   : 'Nirmaan: Dataset Generation for Multiclass Scatterplot Studies'
+    authors :
+      - 'Allison Wong'
+      - '<u>Alark Joshi</u>'
+      - '<u>Sophie Engle</u>'
+    cite    : '<em>Proceedings of IS&amp;T International Symposium on Electronic Imaging: Visualization and Data Analysis (VDA)</em>'
+    date    : 2022-01-01
+    links   :
+      - link: 'https://doi.org/10.2352/EI.2022.34.1.VDA-415'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2022_VDA_Nirmaan.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+      - link: 'https://vgl.cs.usfca.edu/nirmaan/'
+        icon: 'fas fa-globe'
+        name: 'Project website'
+      - link: 'https://github.com/usfvgl/nirmaan/'
+        icon: 'fab fa-github'
+        name: 'Code repository'
+
+  - title   : 'Interactive Visualization Literacy: The State-of-the-Art'
+    authors :
+      - 'Elif E. Firat'
+      - '<u>Alark Joshi</u>'
+      - 'Robert S. Laramee'
+    cite    : '<em>Information Visualization</em>, Volume 21, Issue 3'
+    pages   :
+      - 285
+      - 310
+    date    : 2022-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2022-Interactive-visualization-literacy-the-state-of-the-art.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Responsive Visualization Design for Mobile Devices'
+    authors :
+      - 'Tom Horak'
+      - 'Wolfgang Aigner'
+      - 'Matthew Brehmer'
+      - '<u>Alark Joshi</u>'
+      - 'Christian Tominski'
+    cite    : '<em>Mobile Data Visualization</em>, Chapman and Hall/CRC (book chapter)'
+    pages   :
+      - 33
+      - 66
+    date    : 2021-12-01
+    nomonth : true
+
+  - title   : 'Reflections on Ubiquitous Visualization'
+    authors :
+      - 'Jo Vermeulen'
+      - 'Christopher Collins'
+      - 'Raimund Dachselt'
+      - 'Pourang Irani'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Mobile Data Visualization</em>, Chapman and Hall/CRC (book chapter)'
+    pages   :
+      - 263
+      - 316
+    date    : 2021-12-01
+    nomonth : true
+
+  - title   : 'Visualization Literacy for General Audiences: Can We Make A Difference?'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Katy Börner'
+      - 'Robert S. Laramee'
+      - 'Lane Harrison'
+      - 'Elif E. Firat'
+      - 'Bum Chul Kwon'
+    cite    : '<em>IEEE VIS 2021</em>, Panel'
+    date    : 2021-10-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2021-Joshi-Visualization_Literacy_Panel-IEEE-VIS.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Helping Academically Talented STEM Students with Financial Need Succeed'
+    authors :
+      - 'Amruth N. Kumar'
+      - 'Maureen Doyle'
+      - 'Victoria Hong'
+      - '<u>Alark Joshi</u>'
+      - 'Stan Kurkovsky'
+      - 'Sami Rollins'
+    cite    : '<em>2021 IEEE Frontiers in Education Conference (FIE)</em>'
+    pages   :
+      - 1
+      - 9
+    date    : 2021-10-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2021-FIE-SSTEM.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Work-in-Progress: Understanding Professional Identity Development Among Computer Science Students'
+    authors :
+      - 'Sami Rollins'
+      - '<u>Alark Joshi</u>'
+      - 'Xornam Apedoe'
+      - '<u>Sophie Engle</u>'
+      - 'Matthew Malensek'
+      - 'Gian Bruno'
+    cite    : '<em>Proceedings of the ASEE Annual Conference and Exposition</em>'
+    date    : 2021-07-01
+    links   :
+      - link: 'https://www.asee.org/public/conferences/223/papers/32808/view'
+        icon: 'fas fa-link'
+        name: 'ASEE paper page'
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2021-ASEE-SSTEM.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Reducing Implicit Gender Bias Using a Virtual Workplace Environment'
+    authors :
+      - 'Kevin Beltran'
+      - 'Cody Rowland'
+      - 'Nicki Hashemi'
+      - 'Anh Nguyen'
+      - 'Lane Harrison'
+      - '<u>Sophie Engle</u>'
+      - 'Beste F. Yuksel'
+    cite    : '<em>Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (CHI EA ''21)</em>, Article 277'
+    pages   :
+      - 1
+      - 7
+    date    : 2021-05-01
+    links   :
+      - link: 'https://doi.org/10.1145/3411763.3451739'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+
+  - title   : 'AGAMI: Scalable Visual Analytics over Multidimensional Data Streams'
+    authors :
+      - 'Mingxin Lu'
+      - 'Edmund Wong'
+      - 'Daniel Barajas'
+      - 'Xiaochen Li'
+      - 'Mosopefoluwa Ogundipe'
+      - 'Nate Wilson'
+      - 'Pragya Garg'
+      - '<u>Alark Joshi</u>'
+      - 'Matthew Malensek'
+    cite    : '<em>2020 IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT)</em>'
+    pages   :
+      - 57
+      - 66
+    date    : 2020-12-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2020-agami-bdcat.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Evaluating the Benefits of Team-based Learning in a Systems Programming Class'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Marissa Schmidt'
+      - 'Shane Panter'
+      - 'Amit Jain'
+    cite    : '<em>2020 IEEE Frontiers in Education Conference (FIE)</em>'
+    pages   :
+      - 1
+      - 7
+    date    : 2020-10-01
+    nomonth : true
+
+  - title   : 'Collaborative Visual Analytics Using Blockchain'
+    authors :
+      - 'Darius Coelho'
+      - 'Rubin Trailor'
+      - 'Daniel Sill'
+      - '<u>Sophie Engle</u>'
+      - '<u>Alark Joshi</u>'
+      - 'Serge Mankovskii'
+      - 'Maria Velez-Rojas'
+      - 'Steven Greenspan'
+      - 'Klaus Mueller'
+    cite    : '<em>Proceedings of the International Conference on Cooperative Design, Visualization and Engineering (CDVE 2020)</em>, Lecture Notes in Computer Science, Volume 12341'
+    pages   :
+      - 209
+      - 219
+    date    : 2020-10-01
+    links   :
+      - link: 'https://doi.org/10.1007/978-3-030-60816-3_24'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+
+  - title   : 'Engendering Community to Computer Science Freshmen through an Early Arrival Program'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Gian Bruno'
+      - 'Xornam Apedoe'
+      - '<u>Sophie Engle</u>'
+      - 'Sami Rollins'
+      - 'Matthew Malensek'
+    cite    : '<em>American Society for Engineering Education (ASEE) Annual Conference</em>, NSF Grantees Poster Session'
+    date    : 2020-06-01
+    links   :
+      - link: 'https://www.asee.org/public/conferences/172/papers/30680/view'
+        icon: 'fas fa-link'
+        name: 'ASEE paper page'
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2020-engendering-community-ASEE.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'A Gaze-Contingent System for Foveated Multiresolution Visualization of Vector and Volumetric Data'
+    authors :
+      - '<u>Thanawut Ananpiriyakul</u>'
+      - 'Josh Anghel'
+      - 'Kristi Potter'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Electronic Imaging, 2020(1), 678-687</em>'
+    date    : 2020-01-30
+    links   :
+      - link: 'https://vgl.cs.usfca.edu/assets/Foveated_Visualization___VDA_2020.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Both and Neither'
+    authors :
+      - '<u>Sophie Engle</u>'
+    cite    : '<em>Journal of Interdisciplinary Perspectives and Scholarship</em>, Volume 2'
+    date    : 2020-01-01
+    nomonth : true
+    links   :
+      - link: 'https://repository.usfca.edu/jips/vol2/iss1/7/'
+        icon: 'fas fa-globe'
+        name: 'Journal page'
+      - link: 'https://repository.usfca.edu/cgi/viewcontent.cgi?article=1025&context=jips'
+        icon: 'fas fa-file-pdf'
+        name: 'Essay'
+
+  - title   : 'A Sustainable Model for High-School Teacher Preparation in Computer Science'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Amit Jain'
+      - 'Ernie Covelli'
+      - 'Tim Andersen'
+      - 'Jyh-haw Yeh'
+    cite    : '<em>IEEE Frontiers in Education Conference (FIE)</em>'
+    date    : 2019-10-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2019-IDoCode-IEEE-FIE.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Visualizing Tweets from Confirmed Fake Russian Accounts'
+    authors :
+      - '<u>Stephen Hsu</u>'
+      - '<u>David Kes</u>'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Electronic Imaging, 2019(1), 678-1</em>'
+    date    : 2019-01-26
+    links   :
+      - link: 'https://vgl.cs.usfca.edu/assets/VDA2018.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+      - link: 'https://www.ingentaconnect.com/content/ist/ei/2019/00002019/00000001/art00004'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+
+  - title   : 'Leveraging Models of Human Reasoning to Identify EEG Electrodes in Images With Neural Networks'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Phan Luu'
+      - 'Don M. Tucker'
+      - 'Steven Duane Shofner'
+    cite    : '<em>Optoelectronics in Machine Vision-Based Theories and Applications</em>, IGI Global (book chapter)'
+    pages   :
+      - 106
+      - 133
+    date    : 2019-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2019-Leveraging_EEG_Neural_Networks.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Reflecting on the Impact of a Course on Inclusive Strategies for Teaching Computer Science'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Amit Jain'
+    cite    : '<em>IEEE Frontiers in Education Conference (FIE)</em>'
+    date    : 2018-10-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2018-inclusive-teaching-IEEE-FIE.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Using Animation to Alleviate Overdraw in Multiclass Scatterplot Matrices'
+    authors :
+      - '<u>Helen Chen</u>'
+      - '<u>Sophie Engle</u>'
+      - '<u>Alark Joshi</u>'
+      - 'Eric D. Ragan'
+      - 'Beste F. Yuksel'
+      - 'Lane Harrison'
+    cite    : '<em>Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI 2018)</em>, ACM, New York, NY, USA'
+    pages   :
+      - 1
+      - 12
+    date    : 2018-04-26
+    links   :
+      - link: 'https://vgl.cs.usfca.edu/animated-sploms/'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://github.com/usfvgl/animated-sploms'
+        icon: 'fab fa-github'
+        name: 'Code repository'
+      - link: 'https://github.com/usfvgl/splom-studies'
+        icon: 'fab fa-github'
+        name: 'Code repository'
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2018-chen_animation.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+      - link: 'https://goo.gl/RddgwR'
+        icon: 'fas fa-video'
+        name: 'Demo video'
+
+  - title   : 'Gamifying Data Visualizations on Mobile Devices'
+    authors :
+      - 'Noopur Agarwal'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Data Visualization on Mobile Devices (Workshop at CHI 2018)</em>'
+    date    : 2018-04-21
+
+  - title   : 'Influencing Participant Behavior Through a Notification-Based Recommendation System'
+    authors :
+      - 'Mayank Venkata Thirani'
+      - 'Brian Mark Bushree Reddy'
+      - 'Sami Marcus Rollins Yan'
+      - 'Nilanjan Matthew Banerjee'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Persuasive Technology: 13th International Conference (PERSUASIVE 2018)</em>, Waterloo, ON, Canada, Springer LNCS Volume 10809'
+    date    : 2018-04-18
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2018-Persuasive-Reddy.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Visualization for Smart City Applications'
+    authors :
+      - 'Robert S. Laramee'
+      - 'Cagatay Turkay'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>IEEE Computer Graphics and Applications</em>, Volume 38, Issue 5'
+    pages   :
+      - 36
+      - 37
+    date    : 2018-01-01
+    nomonth : true
+
+  - title   : 'Unboxing Cluster Heatmaps'
     authors :
       - '<u>Sophie Engle</u>'
       - 'Sean Whalen'
-    cite    : '<em>Proceedings of the Ninth International Symposium on Visualization for Cyber Security (VizSec),</em> Seattle, Washington'
-    pages   :
-      - 56
-      - 63
-    date    : 2012-10-01
+      - '<u>Alark Joshi</u>'
+      - 'Katherine S. Pollard'
+    cite    : '<em>BMC Bioinformatics</em>, Volume 18 (Supplement 2):63 (Proceedings of the Symposium on Biological Data Visualization at VIS 2016)'
+    date    : 2017-02-15
     links   :
-      - link: 'http://dx.doi.org/10.1145/2379690.2379698'
+      - link: 'https://doi.org/10.1186/s12859-016-1442-6'
         icon: 'fas fa-link'
-      - link: 'https://drive.google.com/file/d/0BxYofk0iB_upS3Z4M1FqM3REdUk/edit?usp=sharing'
+        name: 'Publisher page'
+      - link: 'https://github.com/usfvgl/unboxing-cluster-heatmaps'
+        icon: 'fab fa-github'
+        name: 'Code repository'
+      - link: 'https://rdcu.be/px5q'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+      - link: 'https://sjengle.cs.usfca.edu/pdf/2017%20Unboxing%20Cluster%20Heatmaps%20(Slides).pdf'
         icon: 'fas fa-file-powerpoint'
-
-  - title   : 'Visualization-assisted Insights into Home Energy Usage'
-    authors :
-      - 'Matt Law'
-      - 'Sami Rollins'
-      - 'Nilanjan Banerjee'
-      - '<u>Alark Joshi</u>'
-    cite    : '<em>Proceedings of the European Conference on Visualization (EuroVis)</em>'
-    date    : 2015-05-01
-    links   :
-      - link: 'http://cs.usfca.edu/~apjoshi/papers/Eurovis_2015_home_energy.pdf'
-        icon: 'fas fa-file-pdf'
-
-  - title   : 'Evaluation-guided Metrics for Visualization on Mobile Devices'
-    authors :
-      - 'Peter Games'
-      - '<u>Alark Joshi</u>'
-    cite    : '<em>SPIE Visualization and Data Analysis Conference</em>, <strong>Best Paper Award</strong>'
-    date    : 2015-02-01
-    links   :
-      - link : false
-        icon: 'fas fa-trophy'
-      - link: 'http://cs.usfca.edu/~apjoshi/papers/evaluation-guidelines_vda2015.pdf'
-        icon: 'fas fa-file-pdf'
-
-  - title   : 'CoVE: A Colony Visualization System for Animal Pedigrees'
-    authors :
-      - 'Brady Cannon'
-      - 'Minoti Hiremath'
-      - 'Cheryl Jorcyk'
-      - '<u>Alark Joshi</u>'
-    cite    : '<em>Proceedings of the ACM 7th International Symposium on Visual Information Communication and Interaction</em>'
-    date    : 2014-08-01
-    links   :
-      - link: 'http://cs.usfca.edu/~apjoshi/papers/ACM_VINCI_2014_cove.pdf'
-        icon: 'fas fa-file-pdf'
-
-  - title   : 'Visualization of Off-Screen Data on Tablets using Context-Providing Bar Graphs and Scatter Plots'
-    authors :
-      - 'Peter Games'
-      - '<u>Alark Joshi</u>'
-    cite    : '<em>SPIE Visualization and Data Analysis Conference</em>, <strong>Best Paper Award</strong>'
-    date    : 2014-02-01
-    links   :
-      - link : false
-        icon: 'fas fa-trophy'
-      - link: 'http://cs.usfca.edu/~apjoshi/papers/Games_Joshi_VDA2014.pdf'
-        icon: 'fas fa-file-pdf'
-
-  - title   : 'DriveSense: Contextual Handling of Large-scale Route Map Data for the Automobile'
-    authors :
-      - 'Frederik Wiehr'
-      - 'Vidya Setlur'
-      - '<u>Alark Joshi</u>'
-    cite    : '<em>IEEE Big Data Visualization Workshop</em>'
-    date    : 2013-10-01
-    links   :
-      - link: 'http://vis.ucdavis.edu/Workshops/BigDataVis2013/'
-        icon: 'fas fa-file-pdf'
-
-  - title   : 'Visualizing Disease Incidence in the Context of Socioeconomic Factors'
-    authors :
-      - 'Jared Shenson'
-      - '<u>Alark Joshi</u>'
-    cite    : '<em>International Symposium on Visual Information Communication and Interaction</em>'
-    date    : 2012-09-01
-    links   :
-      - link: 'http://dl.acm.org/citation.cfm?id=2397701&CFID=170022331&CFTOKEN=38387273'
-        icon: 'fas fa-file-pdf'
-
-  - title   : 'Auto(mobile): Mobile Visual Interfaces for the Road'
-    authors :
-      - 'Frederik Wiehr'
-      - 'Vidya Setlur'
-      - '<u>Alark Joshi</u>'
-    cite    : '<em>ACM SIGGRAPH Mobile</em>'
-    date    : 2012-08-01
-    links   :
-      - link: 'http://dl.acm.org/citation.cfm?id=2341910.2341919&coll=DL&dl=GUIDE&CFID=170022331&CFTOKEN=38387273'
-        icon: 'fas fa-file-pdf'
-
-  - title   : 'RSVP: Remote Sensing Visualization Platform for Data Fusion'
-    authors :
-      - 'Vanessa Gertman'
-      - 'Peter Olsoy'
-      - 'Nancy Glenn'
-      - '<u>Alark Joshi</u>'
-    cite    : '<em>IEEE Virtual Reality Workshop on Immersive Visualization</em>'
-    date    : 2012-03-01
-    links   :
-      - link: 'http://coen.boisestate.edu/gravitas/files/2012/03/rsvp.pdf'
-        icon: 'fas fa-file-pdf'
-
-  - title   : 'Changing Minds to Changing the World: Mapping the Spectrum of Intent in Data Visualization and Data Arts'
-    authors :
-      - '<u>Scott Murray</u>'
-    cite    : 'New Challenges for Data Design, Ed. David Bihanic, London: Springer-Verlag'
-    pages   :
-      - 322
-      - 347
-    date    : 2014-12-28
-    links   :
-      - link: 'http://dx.doi.org/10.1007/978-1-4471-6596-5_16'
-        icon: 'fas fa-link'
-      - link: 'http://alignedleft.com/work/changing-minds'
-        icon: 'fas fa-globe'
-
-  - title   : 'Interactive Data Visualization for the Web: An Introduction to Designing with D3'
-    authors :
-      - '<u>Scott Murray</u>'
-    cite    : "O'Reilly Media"
-    date    : 2013-03-01
-    links   :
-      - link: 'http://www.jdoqocy.com/click-6754088-11260198?url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920026938.do%3Fcmp%3Daf-strata-books-videos-product_cj_9781449339739_%2525zp&cjsku=0636920026938'
-        icon: 'fas fa-book'
-
-  - title   : 'Art-inspired Techniques for Visualizing Time-varying Data: Novel Techniques for Effectively Visualizing Time-varying Data'
-    authors :
-      - '<u>Alark Joshi</u>'
-    cite    : 'VDM Verlag'
-    date    : 2008-08-01
-    links   :
-      - link: 'http://www.amazon.com/Art-inspired-Techniques-Visualizing-Time-varying-VisualizingTime-varying/dp/363906769X/ref=sr_1_1?ie=UTF8&s=books&qid=1254347082&sr=8-1'
-        icon: 'fab fa-amazon'
+        name: 'Slides'
 
   - title   : 'Do Defaults Matter? Evaluating the Effect of Defaults on User Preference for Multi-Class Scatterplots'
     authors :
@@ -191,8 +737,12 @@ publications:
       - 95
     date    : 2016-09-25
     links   :
-      - link: 'http://dx.doi.org/10.1145/2968220.2968241'
+      - link: 'https://doi.org/10.1145/2968220.2968241'
         icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://dl.acm.org/doi/pdf/10.1145/2968220.2968241'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
 
   - title   : 'Interactive Exploration of Multidimensional YouTube Data Using the GPLOM Technique'
     authors :
@@ -206,80 +756,656 @@ publications:
       - 143
     date    : 2016-09-24
     links   :
-      - link : false
+      - link: false
         icon: 'fas fa-trophy'
-      - link: 'http://dx.doi.org/10.1145/2968220.2968233'
+        name: 'Award'
+      - link: 'https://doi.org/10.1145/2968220.2968233'
         icon: 'fas fa-link'
-      - link: 'http://cs690.github.io/spring2015-datavis/visualization.html'
+        name: 'Publisher page'
+      - link: 'https://cs690.github.io/spring2015-datavis/visualization.html'
         icon: 'fab fa-github'
-      - link: 'http://vgl.cs.usfca.edu/assets/2016-vinci-poster.pdf'
+        name: 'Code repository'
+      - link: 'https://vgl.cs.usfca.edu/assets/2016-vinci-poster.pdf'
         icon: 'fas fa-file-pdf'
+        name: 'PDF'
 
-  - title   : 'Unboxing Cluster Heatmaps'
+  - title   : 'Framework and Algorithms for Illustrative Visualizations of Time-varying Flows on Unstructured Meshes'
+    authors :
+      - 'Alexander S. Rattner'
+      - 'Donna Post Guillen'
+      - '<u>Alark Joshi</u>'
+      - 'Srinivas Garimella'
+    cite    : '<em>Advances in Engineering Software</em>, Volume 97'
+    pages   :
+      - 72
+      - 84
+    date    : 2016-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2016-Rattner_IllustrativeViz.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'An Experiment-based Methodology to Understand the Dynamics of Group Decision Making'
+    authors :
+      - 'Susan G. Mason'
+      - 'Don Holley'
+      - 'Aaron Wells'
+      - 'Amit Jain'
+      - 'Thomas Wuerzer'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Socio-Economic Planning Sciences</em>'
+    date    : 2016-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2016-An_Experiment_Based_Methodology.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Visualization-assisted Insights into Home Energy Usage'
+    authors :
+      - 'Matt Law'
+      - 'Sami Rollins'
+      - 'Nilanjan Banerjee'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Proceedings of the European Conference on Visualization (EuroVis)</em>'
+    date    : 2015-05-01
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/Eurovis_2015_home_energy.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Evaluation-guided Metrics for Visualization on Mobile Devices'
+    authors :
+      - 'Peter Games'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>SPIE Visualization and Data Analysis Conference</em>, <strong>Best Paper Award</strong>'
+    date    : 2015-02-01
+    links   :
+      - link: false
+        icon: 'fas fa-trophy'
+        name: 'Award'
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/evaluation-guidelines_vda2015.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Col11a1 Regulates Bone Microarchitecture during Embryonic Development'
+    authors :
+      - 'Anthony Hafez'
+      - 'Ryan Squires'
+      - 'Amber Pedracini'
+      - '<u>Alark Joshi</u>'
+      - 'Robert E. Seegmiller'
+      - 'Julia Thom Oxford'
+    cite    : '<em>Journal of Developmental Biology</em>, Volume 3, Issue 4'
+    pages   :
+      - 158
+      - 176
+    date    : 2015-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2015-Hafez_JDevBiology.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Changing Minds to Changing the World: Mapping the Spectrum of Intent in Data Visualization and Data Arts'
+    authors :
+      - '<u>Scott Murray</u>'
+    cite    : 'New Challenges for Data Design, Ed. David Bihanic, London: Springer-Verlag'
+    pages   :
+      - 322
+      - 347
+    date    : 2014-12-28
+    links   :
+      - link: 'https://doi.org/10.1007/978-1-4471-6596-5_16'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://alignedleft.com/work/changing-minds'
+        icon: 'fas fa-globe'
+        name: 'Website'
+
+  - title   : 'CoVE: A Colony Visualization System for Animal Pedigrees'
+    authors :
+      - 'Brady Cannon'
+      - 'Minoti Hiremath'
+      - 'Cheryl Jorcyk'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>Proceedings of the ACM 7th International Symposium on Visual Information Communication and Interaction</em>'
+    date    : 2014-08-01
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/ACM_VINCI_2014_cove.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Visualization of Off-Screen Data on Tablets using Context-Providing Bar Graphs and Scatter Plots'
+    authors :
+      - 'Peter Games'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>SPIE Visualization and Data Analysis Conference</em>, <strong>Best Paper Award</strong>'
+    pages   :
+      - 132
+      - 146
+    date    : 2014-02-01
+    links   :
+      - link: false
+        icon: 'fas fa-trophy'
+        name: 'Award'
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/Games_Joshi_VDA2014.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Social Network Analysis: A Means to Discovering the Tipping Point in Gaining Cooperation?'
+    authors :
+      - 'Susan Mason'
+      - 'Don Holley'
+      - 'Aaron Wells'
+      - '<u>Alark Joshi</u>'
+      - 'Amit Jain'
+      - 'Thomas Wuerzer'
+    cite    : ''
+    date    : 2014-01-01
+    nomonth : true
+
+  - title   : 'DriveSense: Contextual Handling of Large-scale Route Map Data for the Automobile'
+    authors :
+      - 'Frederik Wiehr'
+      - 'Vidya Setlur'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>IEEE Big Data Visualization Workshop</em>'
+    date    : 2013-10-01
+    links   :
+      - link: 'https://vis.ucdavis.edu/Workshops/BigDataVis2013/'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Reflecting on Visualization for Cyber Security'
+    authors :
+      - 'Carrie Gates'
+      - '<u>Sophie Engle</u>'
+    cite    : '<em>Proceedings of the 2013 IEEE International Conference on Intelligence and Security Informatics (ISI)</em>, from the Evaluating Security Visualizations Workshop, Seattle, Washington'
+    pages   :
+      - 275
+      - 277
+    date    : 2013-06-01
+    links   :
+      - link: 'https://doi.org/10.1109/ISI.2013.6578842'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://sjengle.cs.usfca.edu/pdf/2013%20Reflecting%20on%20Visualization%20for%20Cyber%20Security%20(Preprint).pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'Preprint'
+      - link: 'https://sjengle.cs.usfca.edu/pdf/2013%20Reflecting%20on%20Visualization%20for%20Cyber%20Security%20(Slides).pdf'
+        icon: 'fas fa-file-powerpoint'
+        name: 'Slides'
+
+  - title   : 'Expert Code Review and Mastery Learning in a Software Development Course'
+    authors :
+      - '<u>Sophie Engle</u>'
+      - 'Sami Rollins'
+    cite    : '<em>Journal of Computing Sciences in Colleges</em>, Volume 28, Number 4 (6th CCSC South Western Region Conference)'
+    pages   :
+      - 139
+      - 147
+    date    : 2013-04-01
+    links   :
+      - link: 'https://dl.acm.org/doi/10.5555/2458539.2458564'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://sjengle.cs.usfca.edu/pdf/2013%20Expert%20Code%20Review%20and%20Mastery%20Learning%20in%20a%20Software%20Development%20Course%20(Preprint).pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'Preprint'
+      - link: 'https://sjengle.cs.usfca.edu/pdf/2013%20Expert%20Code%20Review%20and%20Mastery%20Learning%20in%20a%20Software%20Development%20Course%20(Slides).pdf'
+        icon: 'fas fa-file-powerpoint'
+        name: 'Slides'
+
+  - title   : 'Interactive Data Visualization for the Web: An Introduction to Designing with D3'
+    authors :
+      - '<u>Scott Murray</u>'
+    cite    : 'O''Reilly Media'
+    date    : 2013-03-01
+    links   :
+      - link: 'https://www.jdoqocy.com/click-6754088-11260198?url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920026938.do%3Fcmp%3Daf-strata-books-videos-product_cj_9781449339739_%2525zp&cjsku=0636920026938'
+        icon: 'fas fa-book'
+        name: 'Book'
+
+  - title   : 'Extensible Framework for Illustrative Visualization of Time-varying Flows'
+    authors :
+      - 'Donna Post Guillen'
+      - 'Alexander S. Rattner'
+      - '<u>Alark Joshi</u>'
+      - 'Srinivas Garimella'
+    cite    : '<em>Transactions of the American Nuclear Society</em>, Volume 108'
+    pages   :
+      - 974
+      - 976
+    date    : 2013-01-01
+    nomonth : true
+
+  - title   : 'Visualizing Distributed Memory Computations with Hive Plots'
     authors :
       - '<u>Sophie Engle</u>'
       - 'Sean Whalen'
-      - '<u>Alark Joshi</u>'
-      - 'Katherine S. Pollard'
-    cite    : '<em>BMC Bioinformatics</em>, Volume 18 (Supplement 2):63 (Proceedings of the Symposium on Biological Data Visualization at VIS 2016)'
-    date    : 2017-02-15
+    cite    : '<em>Proceedings of the Ninth International Symposium on Visualization for Cyber Security (VizSec),</em> Seattle, Washington'
+    pages   :
+      - 56
+      - 63
+    date    : 2012-10-01
     links   :
-      - link: 'http://dx.doi.org/10.1186/s12859-016-1442-6'
+      - link: 'https://doi.org/10.1145/2379690.2379698'
         icon: 'fas fa-link'
-      - link: 'https://github.com/usfvgl/unboxing-cluster-heatmaps'
-        icon: 'fab fa-github'
-      - link: 'http://rdcu.be/px5q'
+        name: 'Publisher page'
+      - link: 'https://dl.acm.org/doi/pdf/10.1145/2379690.2379698'
         icon: 'fas fa-file-pdf'
+        name: 'PDF'
+      - link: 'https://sjengle.cs.usfca.edu/pdf/2012%20Visualizing%20Distributed%20Memory%20Computations%20with%20Hive%20Plots%20(Slides).pdf'
+        icon: 'fas fa-file-powerpoint'
+        name: 'Slides'
 
-  - title   : 'Using Animation to Alleviate Overdraw in Multiclass Scatterplot Matrices'
+  - title   : 'Visualizing Disease Incidence in the Context of Socioeconomic Factors'
     authors :
-      - '<u>Helen Chen</u>'
+      - 'Jared Shenson'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>International Symposium on Visual Information Communication and Interaction</em>'
+    date    : 2012-09-01
+    links   :
+      - link: 'https://dl.acm.org/citation.cfm?id=2397701&CFID=170022331&CFTOKEN=38387273'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Auto(mobile): Mobile Visual Interfaces for the Road'
+    authors :
+      - 'Frederik Wiehr'
+      - 'Vidya Setlur'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>ACM SIGGRAPH Mobile</em>'
+    date    : 2012-08-01
+    links   :
+      - link: 'https://dl.acm.org/citation.cfm?id=2341910.2341919&coll=DL&dl=GUIDE&CFID=170022331&CFTOKEN=38387273'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'A Taxonomy of Buffer Overflow Characteristics'
+    authors :
+      - 'Matt Bishop'
       - '<u>Sophie Engle</u>'
-      - '<u>Alark Joshi</u>'
-      - 'Eric D. Ragan'
-      - 'Beste F. Yuksel'
-      - 'Lane Harrison'
-    cite    : '<em>Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI 2018)</em>, ACM, New York, NY, USA'
-    date    : 2018-04-26
+      - 'Damien Howard'
+      - 'Sean Whalen'
+    cite    : '<em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, Volume 9, Issue 3'
+    pages   :
+      - 305
+      - 317
+    date    : 2012-06-01
     links   :
-      - link: 'http://vgl.cs.usfca.edu/animated-sploms/'
+      - link: 'https://doi.org/10.1109/TDSC.2012.10'
         icon: 'fas fa-link'
-      - link: 'https://github.com/usfvgl/animated-sploms'
-        icon: 'fab fa-github'
-      - link: 'https://github.com/usfvgl/splom-studies'
-        icon: 'fab fa-github'
-
-  - title   : 'Gamifying Data Visualizations on Mobile Devices'
-    authors :
-      - 'Noopur Agarwal'
-      - '<u>Alark Joshi</u>'
-    cite    : '<em>Data Visualization on Mobile Devices (Workshop at CHI 2018)</em>'
-    date    : 2018-04-21
-
-  - title   : 'Visualizing Tweets from Confirmed Fake Russian Accounts'
-    authors :
-      - '<u>Stephen Hsu</u>'
-      - '<u>David Kes</u>'
-      - '<u>Alark Joshi</u>'
-    cite    : '<em>Electronic Imaging, 2019(1), 678-1</em>'
-    date    : 2019-01-26
-    links   :
-      - link: 'http://vgl.cs.usfca.edu/assets/VDA2018.pdf'
+        name: 'Publisher page'
+      - link: 'https://nob.cs.ucdavis.edu/bishop/papers/2012-ieeetdsc/bufov.pdf'
         icon: 'fas fa-file-pdf'
-      - link: 'https://www.ingentaconnect.com/content/ist/ei/2019/00002019/00000001/art00004'
+        name: 'Preprint'
+
+  - title   : 'Network-Theoretic Classification of Parallel Computation Patterns'
+    authors :
+      - 'Sean Whalen'
+      - '<u>Sophie Engle</u>'
+      - 'Sean Peisert'
+      - 'Matt Bishop'
+    cite    : '<em>International Journal of High Performance Computing Applications (IJHPCA)</em>, Volume 26, Number 2'
+    pages   :
+      - 159
+      - 169
+    date    : 2012-05-01
+    links   :
+      - link: 'https://doi.org/10.1177/1094342012436618'
         icon: 'fas fa-link'
-
-  - title   : 'A Gaze-Contingent System for Foveated Multiresolution Visualization of Vector and Volumetric Data'
-    authors :
-      - '<u>Thanawut Ananpiriyakul</u>'
-      - 'Josh Anghel'
-      - 'Kristi Potter'
-      - '<u>Alark Joshi</u>'
-    cite    : '<em>Electronic Imaging, 2020(1), 678-687</em>'
-    date    : 2020-01-30
-    links   :
-      - link: 'http://vgl.cs.usfca.edu/assets/Foveated_Visualization___VDA_2020.pdf'
+        name: 'Publisher page'
+      - link: 'https://web.cs.ucdavis.edu/~peisert/research/2012-IJHPCA-Fingerprinting.pdf'
         icon: 'fas fa-file-pdf'
+        name: 'Preprint'
 
+  - title   : 'RSVP: Remote Sensing Visualization Platform for Data Fusion'
+    authors :
+      - 'Vanessa Gertman'
+      - 'Peter Olsoy'
+      - 'Nancy Glenn'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>IEEE Virtual Reality Workshop on Immersive Visualization</em>'
+    date    : 2012-03-01
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2012_IEEE_VR_workshop_rsvp.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
 
-  
+  - title   : 'Unified Framework for Development, Deployment and Robust Testing of Neuroimaging Algorithms'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Dustin Scheinost'
+      - 'Hirohito Okuda'
+      - 'Dominique Belhachemi'
+      - 'Isabella Murphy'
+      - 'Lawrence H. Staib'
+      - 'Xenophon Papademetris'
+    cite    : '<em>Neuroinformatics</em>, Volume 9'
+    pages   :
+      - 69
+      - 84
+    date    : 2011-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2011_JNeuroInformatics_bis.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Panel: Perspectives on Teaching Data Visualization'
+    authors :
+      - 'Jason Dykes'
+      - 'Daniel F. Keefe'
+      - 'Gordon Kindlmann'
+      - 'Tamara Munzner'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>IEEE VisWeek 2010</em>, <strong>Best Panel Award</strong>'
+    date    : 2010-10-01
+    nomonth : true
+    links   :
+      - link: false
+        icon: 'fas fa-trophy'
+        name: 'Best Panel Award'
+
+  - title   : 'Modeling and Analyzing Faults to Improve Election Process Robustness'
+    authors :
+      - 'Borislava I. Simidchieva'
+      - '<u>Sophie Engle</u>'
+      - 'Michael Clifford'
+      - 'Alicia Clay Jones'
+      - 'Sean Peisert'
+      - 'Matt Bishop'
+      - 'Lori A. Clarke'
+      - 'Leon J. Osterweil'
+    cite    : '<em>Proceedings of the USENIX Electronic Voting Technology Workshop/Workshop on Trustworthy Elections (EVT/WOTE)</em>'
+    date    : 2010-06-01
+    links   :
+      - link: 'https://dl.acm.org/doi/10.5555/1924892.1924898'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://www.usenix.org/legacy/events/evtwote10/tech/full_papers/Simidchieva.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+      - link: 'https://www.usenix.org/conference/evtwote-10/modeling-and-analyzing-faults-improve-election-process-robustness'
+        icon: 'fas fa-video'
+        name: 'Video'
+
+  - title   : 'A Policy-Based Vulnerability Analysis Framework'
+    authors :
+      - '<u>Sophie Engle</u>'
+    cite    : 'Ph.D. Dissertation, Technical Report CSE-2010-06, Department of Computer Science, University of California, Davis'
+    date    : 2010-03-01
+    links   :
+      - link: 'https://dl.acm.org/doi/book/10.5555/2019781'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://sjengle.cs.usfca.edu/pdf/2010%20A%20Policy-Based%20Vulnerability%20Analysis%20Framework.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'Dissertation'
+      - link: 'https://sjengle.cs.usfca.edu/pdf/2010%20A%20Policy-Based%20Vulnerability%20Analysis%20Framework%20(Exit%20Seminar).pdf'
+        icon: 'fas fa-file-powerpoint'
+        name: 'Exit seminar slides'
+
+  - title   : 'A Risk Management Approach to Insider Threat'
+    authors :
+      - 'Matt Bishop'
+      - '<u>Sophie Engle</u>'
+      - 'Deborah A. Frincke'
+      - 'Carrie Gates'
+      - 'Frank L. Greitzer'
+      - 'Sean Peisert'
+      - 'Sean Whalen'
+    cite    : '<em>Insider Threats in Cyber Security</em>, Advances in Information Security, Volume 49, Springer (book chapter)'
+    pages   :
+      - 115
+      - 137
+    date    : 2010-01-01
+    nomonth : true
+    links   :
+      - link: 'https://doi.org/10.1007/978-1-4419-7133-3_6'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://web.cs.ucdavis.edu/~peisert/research/insiderthreat-chapter-final-prepress.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'Preprint'
+
+  - title   : 'Introduction to Programming for Image Analysis with VTK'
+    authors :
+      - 'Xenophon Papademetris'
+      - '<u>Alark Joshi</u>'
+    cite    : 'Yale IPAG, 2nd edition (teaching notes)'
+    date    : 2009-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.xpapademetris.com/old-teaching-notes'
+        icon: 'fas fa-book'
+        name: 'Book'
+
+  - title   : 'Case Studies of an Insider Framework'
+    authors :
+      - 'Matt Bishop'
+      - '<u>Sophie Engle</u>'
+      - 'Sean Peisert'
+      - 'Sean Whalen'
+      - 'Carrie Gates'
+    cite    : '<em>Proceedings of the 42nd Hawaii International Conference on System Sciences (HICSS)</em>'
+    pages   :
+      - 1
+      - 10
+    date    : 2009-01-01
+    nomonth : true
+    links   :
+      - link: 'https://doi.ieeecomputersociety.org/10.1109/HICSS.2009.617'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://web.cs.ucdavis.edu/~peisert/research/2009-BEGPW-HICSS-Insider.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'Preprint'
+
+  - title   : 'We Have Met the Enemy and He is Us'
+    authors :
+      - 'Matt Bishop'
+      - '<u>Sophie Engle</u>'
+      - 'Sean Peisert'
+      - 'Sean Whalen'
+      - 'Carrie Gates'
+    cite    : '<em>Proceedings of the 2008 New Security Paradigms Workshop (NSPW)</em>'
+    pages   :
+      - 1
+      - 12
+    date    : 2008-09-01
+    links   :
+      - link: 'https://doi.org/10.1145/1595676.1595678'
+        icon: 'fas fa-link'
+        name: 'Publisher page'
+      - link: 'https://dl.acm.org/doi/pdf/10.1145/1595676.1595678'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+      - link: 'https://sjengle.cs.usfca.edu/pdf/2008%20We%20Have%20Met%20the%20Enemy%20and%20He%20is%20Us%20(Slides).pdf'
+        icon: 'fas fa-file-powerpoint'
+        name: 'Slides'
+
+  - title   : 'Art-inspired Techniques for Visualizing Time-varying Data: Novel Techniques for Effectively Visualizing Time-varying Data'
+    authors :
+      - '<u>Alark Joshi</u>'
+    cite    : 'VDM Verlag'
+    date    : 2008-08-01
+    links   :
+      - link: 'https://www.amazon.com/Art-inspired-Techniques-Visualizing-Time-varying-VisualizingTime-varying/dp/363906769X/ref=sr_1_1?ie=UTF8&s=books&qid=1254347082&sr=8-1'
+        icon: 'fab fa-amazon'
+        name: 'Link'
+
+  - title   : 'Evaluation of Illustration-inspired Techniques for Time-varying Data Visualization'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Penny Rheingans'
+    cite    : '<em>Computer Graphics Forum (EuroVis 2008)</em>, Volume 27, Issue 3'
+    pages   :
+      - 999
+      - 1006
+    date    : 2008-05-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2008_EuroVis_evaluation.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Novel Interaction Techniques for Neurosurgical Planning and Stereotactic Navigation'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Dustin Scheinost'
+      - 'Kenneth Vives'
+      - 'Dennis Spencer'
+      - 'Lawrence Staib'
+      - 'Xenophon Papademetris'
+    cite    : '<em>IEEE Transactions on Visualization and Computer Graphics</em>, Volume 14, Issue 6'
+    pages   :
+      - 1587
+      - 1594
+    date    : 2008-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2008_IEEE_Vis_interaction.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Effective Visualization of Complex Vascular Structures Using a Non-parametric Vessel Detection Method'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Xiaoning Qian'
+      - 'Donald Dione'
+      - 'Ketan Bulsara'
+      - 'Christopher Breuer'
+      - 'Albert Sinusas'
+      - 'Xenophon Papademetris'
+    cite    : '<em>IEEE Transactions on Visualization and Computer Graphics</em>, Volume 14, Issue 6'
+    pages   :
+      - 1603
+      - 1610
+    date    : 2008-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2008_IEEE_Vis_vesselvis.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Case Study on Visualizing Hurricanes Using Illustration-inspired Techniques'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Jesus Caban'
+      - 'Penny Rheingans'
+      - 'Lynn Sparling'
+    cite    : '<em>IEEE Transactions on Visualization and Computer Graphics</em>, Volume 15, Issue 5'
+    pages   :
+      - 709
+      - 718
+    date    : 2008-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2007_IEEE_TVCG_hurricane.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Source Code Review of the Sequoia Voting System'
+    authors :
+      - 'Matt Blaze'
+      - 'Arel Cordero'
+      - '<u>Sophie Engle</u>'
+      - 'Chris Karlof'
+      - 'Naveen Sastry'
+      - 'Micah Sherr'
+      - 'Till Stegers'
+      - 'Ka-Ping Yee'
+    cite    : 'Report for the California Secretary of State''s Top-to-Bottom Review of California Voting Systems'
+    date    : 2007-06-01
+    links   :
+      - link: 'https://votingsystems.cdn.sos.ca.gov/oversight/ttbr/sequoia-source-public-jul26.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'Report'
+      - link: 'https://web.archive.org/web/20150617013058/http://www.sos.ca.gov/elections/voting-systems/oversight/top-bottom-review/'
+        icon: 'fas fa-globe'
+        name: 'Archived website'
+
+  - title   : 'Texture-based Feature Tracking for Effective Time-varying Data Visualization'
+    authors :
+      - 'Jesus Caban'
+      - '<u>Alark Joshi</u>'
+      - 'Penny Rheingans'
+    cite    : '<em>IEEE Transactions on Visualization and Computer Graphics</em>, Volume 13, Issue 6'
+    pages   :
+      - 1472
+      - 1479
+    date    : 2007-01-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2007_IEEE_Vis_texture.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+
+  - title   : 'Rapid Development of Medical Imaging Tools with Open-source Libraries'
+    authors :
+      - 'Jesus J. Caban'
+      - '<u>Alark Joshi</u>'
+      - 'Paul Nagy'
+    cite    : '<em>Journal of Digital Imaging</em>, Volume 20'
+    pages   :
+      - 83
+      - 93
+    date    : 2007-01-01
+    nomonth : true
+
+  - title   : 'The Software Assurance CBK and University Curricula'
+    authors :
+      - 'Matt Bishop'
+      - '<u>Sophie Engle</u>'
+    cite    : '<em>Proceedings of the Tenth Colloquium on Information Systems Security Education (CISSE)</em>'
+    pages   :
+      - 14
+      - 21
+    date    : 2006-06-01
+    links   :
+      - link: 'https://cisse.info/resources/archives/category/6-papers?download=46:s01p03-2006'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
+      - link: 'https://nob.cs.ucdavis.edu/bishop/talks/2006-cisse-1/swacbk.pdf'
+        icon: 'fas fa-file-powerpoint'
+        name: 'Slides'
+
+  - title   : 'Free Your Data! Cenimation: Visualization for Constrained Displays'
+    authors :
+      - '<u>Sophie Engle</u>'
+      - 'James Shearer'
+      - 'Michael Ogawa'
+      - 'Steve Haroz'
+      - 'Kwan-Liu Ma'
+    cite    : '<em>IEEE InfoVis Visualization Contest</em>, <strong>Creative Winner</strong>'
+    date    : 2006-01-01
+    nomonth : true
+    links   :
+      - link: false
+        icon: 'fas fa-trophy'
+        name: 'Creative Winner'
+      - link: 'https://www.cs.umd.edu/hcil/InfovisRepository/contest-2006/files/Engle.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'Abstract'
+      - link: 'https://sites.google.com/site/jshearer/cenimation'
+        icon: 'fas fa-globe'
+        name: 'Website'
+
+  - title   : 'Illustration-inspired Techniques for Visualizing Time-varying Data'
+    authors :
+      - '<u>Alark Joshi</u>'
+      - 'Penny Rheingans'
+    cite    : '<em>IEEE Visualization 2005 (VIS 05)</em>'
+    pages   :
+      - 679
+      - 686
+    date    : 2005-10-01
+    nomonth : true
+    links   :
+      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2005_IEEE_Vis_illustration.pdf'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
