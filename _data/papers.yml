@@ -35,8 +35,9 @@ publications:
       - 'Shano Liang'
       - 'Lane Harrison'
       - '<u>Alark Joshi</u>'
-    cite    : '<em>arXiv preprint</em> arXiv:2610.04192 [cs.HC]'
+    cite    : '<em>VISxVISION Workshop at IEEE VIS 2026</em>'
     date    : 2026-10-03
+    nomonth : true
     links   :
       - link: 'https://arxiv.org/abs/2610.04192'
         icon: 'fas fa-link'
