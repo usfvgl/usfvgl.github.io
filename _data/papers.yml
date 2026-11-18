@@ -677,20 +677,6 @@ publications:
     cite    : '<em>Data Visualization on Mobile Devices (Workshop at CHI 2018)</em>'
     date    : 2018-04-21
 
-  - title   : 'Influencing Participant Behavior Through a Notification-Based Recommendation System'
-    authors :
-      - 'Mayank Venkata Thirani'
-      - 'Brian Mark Bushree Reddy'
-      - 'Sami Marcus Rollins Yan'
-      - 'Nilanjan Matthew Banerjee'
-      - '<u>Alark Joshi</u>'
-    cite    : '<em>Persuasive Technology: 13th International Conference (PERSUASIVE 2018)</em>, Waterloo, ON, Canada, Springer LNCS Volume 10809'
-    date    : 2018-04-18
-    links   :
-      - link: 'https://www.cs.usfca.edu/~apjoshi/papers/2018-Persuasive-Reddy.pdf'
-        icon: 'fas fa-file-pdf'
-        name: 'PDF'
-
   - title   : 'Visualization for Smart City Applications'
     authors :
       - 'Robert S. Laramee'
