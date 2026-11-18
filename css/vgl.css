@@ -9,7 +9,8 @@
   border: none !important;
 }
 
-.papers u {
+.papers u,
+.lab-member {
   text-decoration: none;
   color: #A8228E;
 }

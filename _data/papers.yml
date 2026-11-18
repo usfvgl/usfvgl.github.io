@@ -29,6 +29,21 @@
 #############################
 
 publications:
+  - title   : 'Evaluating Just Noticeable Differences in Layered Opacity Visualizations'
+    authors :
+      - '<u>Caterina Ponti</u>'
+      - 'Shano Liang'
+      - 'Lane Harrison'
+      - '<u>Alark Joshi</u>'
+    cite    : '<em>arXiv preprint</em> arXiv:2610.04192 [cs.HC]'
+    date    : 2026-10-03
+    links   :
+      - link: 'https://arxiv.org/abs/2610.04192'
+        icon: 'fas fa-link'
+        name: 'arXiv page'
+      - link: 'https://arxiv.org/pdf/2610.04192'
+        icon: 'fas fa-file-pdf'
+        name: 'PDF'
   - title   : 'Challenges in Synchronous &amp; Remote Collaboration Around Visualization'
     authors :
       - 'Matthew Brehmer'
@@ -82,7 +97,7 @@ publications:
 
   - title   : 'Mastery Learning Improves Performance on Complex Tasks on PCP Literacy Test'
     authors :
-      - 'Chandana Srinivas'
+      - '<u>Chandana Srinivas</u>'
       - 'Elif E. Firat'
       - 'Robert S. Laramee'
       - '<u>Alark Joshi</u>'
@@ -99,8 +114,8 @@ publications:
 
   - title   : 'Evaluating Student Learning Gains Through a Data-Driven Storytelling Worksheet Intervention'
     authors :
-      - 'Chandana Srinivas'
-      - 'Bhavi Kenia'
+      - '<u>Chandana Srinivas</u>'
+      - '<u>Bhavi Kenia</u>'
       - '<u>Alark Joshi</u>'
     cite    : '<em>44th Computer Graphics &amp; Visual Computing Conference (CGVC)</em>, Eurographics'
     pages   :
@@ -130,7 +145,7 @@ publications:
 
   - title   : 'Believing is Seeing: Cognitive Risks of High Confidence AI Predictions in Human Decision Making'
     authors :
-      - 'Aarav Gupta'
+      - '<u>Aarav Gupta</u>'
       - '<u>Alark Joshi</u>'
     cite    : '<em>Proceedings of the 17th International EuroVis Workshop on Visual Analytics (EuroVA)</em>, <strong>Best Paper Award</strong>'
     date    : 2026-01-01
@@ -160,8 +175,8 @@ publications:
 
   - title   : 'Examining a PCP Intervention through the Anderson and Krathwohl Taxonomy Lens'
     authors :
-      - 'Chandana Srinivas'
-      - 'Bhavi Kenia'
+      - '<u>Chandana Srinivas</u>'
+      - '<u>Bhavi Kenia</u>'
       - 'Kelsey Urgo'
       - 'Elif E. Firat'
       - 'Robert S. Laramee'
@@ -177,9 +192,9 @@ publications:
   - title   : 'Evaluating the Impact of a Constructivist Approach to Treemap Literacy'
     authors :
       - 'Elif E. Firat'
-      - 'Chandana Srinivas'
-      - 'Colm Lang'
-      - 'Bhumika Srinivas'
+      - '<u>Chandana Srinivas</u>'
+      - '<u>Colm Lang</u>'
+      - '<u>Bhumika Srinivas</u>'
       - 'Robert S. Laramee'
       - '<u>Alark Joshi</u>'
     cite    : '<em>IEEE Computer Graphics and Applications</em>, Volume 45, Issue 1'
@@ -195,7 +210,7 @@ publications:
 
   - title   : 'An Inductive Approach for Identification of Barriers to PCP Literacy'
     authors :
-      - 'Chandana Srinivas'
+      - '<u>Chandana Srinivas</u>'
       - 'Elif E. Firat'
       - 'Robert S. Laramee'
       - '<u>Alark Joshi</u>'
@@ -210,7 +225,7 @@ publications:
   - title   : 'Evaluating the Recommendations of LLMs to Teach a Visualization Technique using Bloom''s Taxonomy'
     authors :
       - '<u>Alark Joshi</u>'
-      - 'Chandana Srinivas'
+      - '<u>Chandana Srinivas</u>'
       - 'Elif E. Firat'
       - 'Robert S. Laramee'
     cite    : '<em>Visualization and Data Analysis Conference (VDA)</em>'
@@ -247,9 +262,9 @@ publications:
   - title   : 'A Constructivism-based Approach to Treemap Literacy in the Classroom'
     authors :
       - 'Elif E. Firat'
-      - 'Colm Lang'
-      - 'Bhumika Srinivas'
-      - 'Ilena Peng'
+      - '<u>Colm Lang</u>'
+      - '<u>Bhumika Srinivas</u>'
+      - '<u>Ilena Peng</u>'
       - 'Robert S. Laramee'
       - '<u>Alark Joshi</u>'
     cite    : '<em>Computer Graphics Forum (Eurographics Education Papers)</em>, Volume 42, Issue 2'
@@ -280,7 +295,7 @@ publications:
 
   - title   : 'Lessons Learned from Quantitatively Exploring Visualization Rubric Utilization for Peer Feedback'
     authors :
-      - 'Daniel Barajas'
+      - '<u>Daniel Barajas</u>'
       - 'Xornam Apedoe'
       - 'David Guy Brizan'
       - '<u>Alark Joshi</u>'
@@ -315,7 +330,7 @@ publications:
 
   - title   : 'Evaluating Bloom''s Taxonomy-based Learning Modules for Parallel Coordinates Literacy'
     authors :
-      - 'Ilena Peng'
+      - '<u>Ilena Peng</u>'
       - 'Elif E. Firat'
       - 'Robert S. Laramee'
       - '<u>Alark Joshi</u>'
@@ -345,7 +360,7 @@ publications:
 
   - title   : 'Nirmaan: Dataset Generation for Multiclass Scatterplot Studies'
     authors :
-      - 'Allison Wong'
+      - '<u>Allison Wong</u>'
       - '<u>Alark Joshi</u>'
       - '<u>Sophie Engle</u>'
     cite    : '<em>Proceedings of IS&amp;T International Symposium on Electronic Imaging: Visualization and Data Analysis (VDA)</em>'
@@ -484,7 +499,7 @@ publications:
     authors :
       - 'Mingxin Lu'
       - 'Edmund Wong'
-      - 'Daniel Barajas'
+      - '<u>Daniel Barajas</u>'
       - 'Xiaochen Li'
       - 'Mosopefoluwa Ogundipe'
       - 'Nate Wilson'
