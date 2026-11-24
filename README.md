@@ -110,7 +110,7 @@ Icons come from [Font Awesome 6](https://fontawesome.com/search?m=free) (free se
 
 ### Links
 
-Use `https://` for all links. For pages on this site, use Liquid's `relative_url` filter, e.g. `{{ "/research.html" | relative_url }}`; note the quotes around the path. Alark's site is `https://www.cs.usfca.edu/~apjoshi/` (the bare `cs.usfca.edu` host no longer resolves).
+Use `https://` for all links. For pages on this site, use Liquid's `relative_url` filter, e.g. `{{ "/research.html" | relative_url }}`; note the quotes around the path. 
 
 ## Local setup
 
